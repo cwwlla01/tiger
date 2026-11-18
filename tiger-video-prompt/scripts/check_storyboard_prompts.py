@@ -9,7 +9,7 @@ def check(text, model=None):
     if not ids:
         ids = set(re.findall(r'(?m)^#{2,5}\s*(?:Take|TAKE)\s*[:：#-]?\s*([A-Za-z0-9_-]+)', text))
     if not ids:
-        ids = set(re.findall(r'(?m)^###\s+(T-\d{3})｜', text))
+        ids = set(re.findall(r'(?m)^###\s+(?:SH\d+[｜|]\s*)?(T-\d{3})[｜|]', text))
     heads = re.findall(r'(?m)^(?:#{3,5}\s*|-\s*\*\*)视频生成提示词[｜|]\s*即梦\s+(.+?)\s*（主用）(?:\*\*：)?\s*$', text)
     post_only = len(re.findall(r'(?m)^- \*\*视频生成处理\*\*：黑场与声音属于后期', text))
     if model is not None:

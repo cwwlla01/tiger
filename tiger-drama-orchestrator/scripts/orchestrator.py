@@ -4,12 +4,12 @@ import argparse, datetime, hashlib, json
 from pathlib import Path
 
 STAGES = {
- '01': ('tiger-drama-writer', ['剧本.md', '01-剧本.md']),
+ '01': ('tiger-drama-writer', ['剧本.md', '01-剧本.md', 'state_capsule.json']),
  '02': ('tiger-drama-assets', ['02-资产解析.md','02-资产生成提示词-EP001-EP002-候选版.md','02-资产总库.md']),
- '03': ('tiger-drama-director', ['03-专业导演分镜.md']),
+ '03': ('tiger-drama-director / ai-storyboard', ['03-专业导演分镜.md', '03-AI导演分镜.md']),
  '04': ('tiger-video-prompt', ['04-画面帧生成提示词.md']),
  '05': ('tiger-video-prompt', ['05-视频生成提示词.md']),
- '06': ('tiger-drama-qa', ['06-全流程质量审核报告.md'])
+ '06': ('tiger-drama-qa', ['06-全流程验收报告.md', '06-全流程质量审核报告.md'])
 }
 
 def scan(project):

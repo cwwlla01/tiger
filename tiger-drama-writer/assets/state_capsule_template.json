@@ -1,0 +1,25 @@
+{
+  "episode_completed": "EP000",
+  "timeline": "Day1／白天",
+  "location_and_layout": "当前核心场景与空间连通关系",
+  "characters": {
+    "主角": {
+      "status": "ALIVE",
+      "location": "所在具体位置",
+      "appearance": "当前服装与外观状态（含污渍/破损）",
+      "injuries_and_marks": "当前伤势、疲劳或持续代价状态",
+      "knowledge": ["已亲眼确认的事实", "尚不知情的秘密边界"]
+    }
+  },
+  "props_and_resources": {
+    "关键道具A": "当前持有者及完好程度",
+    "消耗品账本": "水/食物/资源结余"
+  },
+  "payoff_debts": [
+    {
+      "id": "hook_01",
+      "due": "EP002",
+      "note": "本集结尾留下的钩子或待兑现承诺"
+    }
+  ]
+}

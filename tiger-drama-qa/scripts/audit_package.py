@@ -5,10 +5,13 @@ from pathlib import Path
 
 def audit(root):
     root=Path(root)
+    sb_name = '03-专业导演分镜.md' if (root / '03-专业导演分镜.md').is_file() else (
+        '03-AI导演分镜.md' if (root / '03-AI导演分镜.md').is_file() else '03-专业导演分镜.md'
+    )
     candidates={
         '02_tasks':'02-资产生成任务清单.json',
         '02_prompts':'02-资产生成提示词-EP001-EP002-候选版.md',
-        '03_storyboard':'03-专业导演分镜.md',
+        '03_storyboard':sb_name,
         '04_frames':'04-画面帧生成提示词.md',
         '05_video':'05-视频生成提示词.md',
     }

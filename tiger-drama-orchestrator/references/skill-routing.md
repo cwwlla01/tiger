@@ -1,15 +1,16 @@
-# 专业Skill路由与名称迁移
+# 专业Skill路由与职责边界
 
-| 环节 | 目标Skill | 当前已知旧入口 | 职责 |
-|---|---|---|---|
-| 00 | tiger-drama-orchestrator | 无 | 总控调度 |
-| 01 | tiger-drama-writer | drama-writer-pro | 剧本创作及修订 |
-| 02 | tiger-drama-assets | drama-asset-registry | 四类资产登记、版本、缺口、复用，贯穿全程 |
-| 03 | tiger-drama-director | apocalypse-rule-director | 导演分镜、Take与镜头连续性 |
-| 04 + 05 | tiger-video-prompt | video-prompt-compiler | 编译04静帧和05视频提示词，保持03只读 |
-| 06 | tiger-drama-qa | drama-pipeline-qa 或 drama-production-qa | 独立审核、退回、复验 |
+| 环节 | 目标Skill | 职责 |
+|---|---|---|
+| 总控 | tiger-drama-orchestrator | 跨阶段状态、依赖、断点与返工调度 |
+| 00（原创前置） | tiger-drama-architect | 故事圣经、世界观动线、人物妆造预算锁、分集因果表与 `ep000` 胶囊 |
+| 01 | tiger-drama-writer | 剧本创作、续写、修订、状态胶囊与 5～10 集批次体检 |
+| 02 | tiger-drama-assets | 四类资产预建白名单（模式 A）及提取/增量（模式 B），维护跨集造型连续性 |
+| 03（复杂戏剧） | tiger-drama-director | 专业导演分镜、Take与调度（`03-专业导演分镜.md`） |
+| 03（AI快产） | ai-storyboard | 面向 AI 视频生成的精简分镜（`03-AI导演分镜.md`） |
+| 04 + 05 | tiger-video-prompt | 编译 `04` 静帧与 `05` 视频提示词，保持 03 只读 |
+| 06 | tiger-drama-qa | 独立跨文件验收、退回与复验 |
 
-- 以上目标名是迁移目标，不代表对应Skill已安装。先检查当前可用Skill目录，再按存在的真实入口执行。
-- 实际生成角色图片时按需路由 `drama-character-asset-production`；怪物按需 `monster-stage-asset-director`；其他实际图像制作按需 `drama-image-director`。这些不是04文本提示词的必经依赖。
-- 不将01/02/03三个不同职责命名成同一个 `tiger-drama-writer`。
-- 若专业Skill有明确的源文件只读、版本或资产规范，遵守其更严格约束；总控不得自行放宽。
+- 先检查当前可用 Skill 目录再路由；`tiger-shared-references/pipeline-contracts.md` 为公共接口参考，不直接调用。
+- 图像/视频实际生图生片工具属于外部可选执行层；不虚构未安装或未触发的外部工具。
+- 若专业 Skill 有更严格的只读、版本或资产规范，总控遵守其约束不得放宽。
