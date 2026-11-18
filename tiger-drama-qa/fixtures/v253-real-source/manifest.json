@@ -1,0 +1,31 @@
+{
+  "status": "TEST_SCRIPT_DIRECTED_DRAFT",
+  "source_kind": "PREEXISTING_ORIGINAL_TEST_SCRIPT_NOT_USER_PRODUCTION_CANON",
+  "source_sha256": "778eda3868ff5d92e5ae41f64a5fbea638a4e17b88492507a3d312a33ef4ebd1",
+  "storyboard_sha256": "c46ac5d202e6c5cc9d14cee0d11fe75ecb27242fdbffc360745fdf8d9a4e05be",
+  "source_beats": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "shot_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "total_seconds": 41,
+  "independent_blind_run": false,
+  "real_video_test": false
+}

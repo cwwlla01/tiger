@@ -1,0 +1,63 @@
+{
+  "project": "渡轮十五人苏醒",
+  "approval_status": "PENDING",
+  "source_events": [
+    {
+      "id": "E01",
+      "description": "夜间渡轮公共舱内十五名乘客昏睡"
+    },
+    {
+      "id": "E02",
+      "description": "十五人近乎同时醒来，坐起或抬头并困惑环顾"
+    }
+  ],
+  "rules": [],
+  "routes": [
+    {
+      "id": "A",
+      "dramatic_question": "为什么所有人都在这里醒来？",
+      "information_schedule": [
+        "昏睡群像",
+        "第一个苏醒信号",
+        "多处苏醒",
+        "确认群体异常",
+        "十五人都醒了"
+      ],
+      "editorial_mechanism": "分区反应＋静态群像",
+      "risk": "群像人数一致性"
+    },
+    {
+      "id": "B",
+      "dramatic_question": "醒来的人会发现什么？",
+      "information_schedule": [
+        "单人醒来",
+        "听到画外动静",
+        "看见近处同伴",
+        "意识到多人同时醒来",
+        "全舱醒来"
+      ],
+      "editorial_mechanism": "单人主观＋声音桥＋延迟全景",
+      "risk": "视线和空间轴线"
+    }
+  ],
+  "recommended_route": "B",
+  "visual_bible": {
+    "medium": "3D国漫CG",
+    "location": "夜间渡轮公共舱",
+    "lighting": "冷蓝灰，舱内既有照明",
+    "anchors": [
+      "蓝色座椅",
+      "桌子",
+      "矩形暗海窗",
+      "壁挂屏幕",
+      "单把手平齐舱门"
+    ],
+    "grain": "低强度，优先后期"
+  },
+  "shots": [],
+  "takes": [],
+  "qa": {
+    "static": "NOT_RUN",
+    "media": "NOT_RUN"
+  }
+}

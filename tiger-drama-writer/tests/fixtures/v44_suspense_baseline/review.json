@@ -1,0 +1,97 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v44_suspense_baseline/EP01.raw.md",
+      "sha256": "8dcfb25eeb49c81507d8ccc6d4696c049282ea9ff1fa005d884b7859dc4178b6",
+      "scenes": 2,
+      "dialogue_han": 253,
+      "dialogue_turns": 21,
+      "body_han": 707,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 253,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          75,
+          154
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 1,
+      "detail": {
+        "episode": 1,
+        "dialogue_han": 253,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          75,
+          154
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [
+      {
+        "episode": 1,
+        "scene": 2
+      }
+    ],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "△高队伸手拿小票。陈默先撕下来，折进掌心，把餐袋推回墙边。",
+        "assessment": "保安试拨订餐电话，队长以漏岗威胁且伸手夺票；保安保住票据佯装服从。短场有具体争物与策略变化，无须为900字提示添加解释。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "unresolved",
+        "quote": "高队：十点是你接班后第一次巡楼。送到有人住的房间，人家会退；308封了，才没人问。",
+        "assessment": "Major：若十点本来就巡楼，队长无须每日买外卖来调离；既定巡楼与漏岗处分亦未分清。反证电话和电缆成立，但诱饵的因果必要性不足。本基线保留原稿，不把有答案等同于答案严密。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "revision_pending",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

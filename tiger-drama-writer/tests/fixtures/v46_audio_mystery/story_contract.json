@@ -1,0 +1,49 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "retrospective",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户指定一集，录音矛盾在本集以复现解开。",
+    "merge_review": "质证、失败测试与声源验证保留在一个连续场景，避免转场拖时。"
+  },
+  "audience_promise": "用观众能听见的重复细节与现场验证，解开录音为何不能证明老板在店。",
+  "main_engine": "声音身份与人在场被错误等同；同事坚持原始录音迫使验证声源。",
+  "protagonist_strategy": "林岚先要求播放完整原件，再用停止设备的排除测试定位声音；不能凭耳朵鉴定时间或伪造。",
+  "ending_payoff": "从旧播放器复现昨夜的两段声音，拔除设备后声音停止；撤回老板在场的断言。",
+  "endpoint_kind": "local_mystery_solution",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "林岚要求同事播放未裁切原录音，核对老板的否认。",
+      "counteraction": "周原强调清晰的老板声音和自己当晚的喊话，拒绝拿旧录音敷衍。",
+      "choice": "林岚放弃争辩声纹，从两次相同撞勺声追查店内声源并做断电测试。",
+      "payoff": "旧播放器完整重现声音循环，拆掉电池后停止，录音证明的是扬声器响而非人在。",
+      "cost": "老板拆下自己用来装有人值夜的设备；同事撤回过度断言，真实出城行程仍未获独立核实。",
+      "mainline_change": "双方由拿声音互斥质问，变为接受可复现的声源解释。",
+      "mechanism": "听觉重复线索—错误回应推断—现场排除验证。",
+      "next_trigger": "本集局部谜题关闭，不预埋新案。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 78,
+          "independent_action_seconds": 30,
+          "pause_seconds": 10,
+          "overlapped_action_seconds": 12
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "voice",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "解释老板声音为何在空店响，并区分声音出现和人在场。"
+    }
+  ]
+}

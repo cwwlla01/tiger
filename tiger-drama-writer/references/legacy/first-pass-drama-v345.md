@@ -1,0 +1,9 @@
+# V3.45 first-pass dramatic realization and continuity lock
+
+Objective: improve actual generated first drafts, not merely audit completeness. Before each scene, silently record: pressure / protagonist maneuver / motivated countermove / a second maneuver that costs something / who changes a relationship decision / state delta. Write the dramatized moves in the screenplay, not only the outline.
+
+Before the next scene, verify: (a) the preceding action made a concrete object, decision or knowledge state change; (b) the opponent retained a rational self-interest; (c) a character spoke differently because their goal differs, not because of catchphrases; (d) the consequences persist. A dramatic confrontation can be dialogue-driven, but the negotiation must change legal, material or relationship positions on-page.
+
+For evidence-heavy family suspense, maintain an evidence ladder: observation, anonymous allegation, authenticated record, witness testimony, independently confirmed conclusion. A phone photo, mysterious message, or worn box label is *not* automatically proof. The protagonist should sometimes choose an accountable partial win instead of an implausible total victory. Track currency, time limits, injuries, documents, consent, and permissions.
+
+Retest practice: freeze the unedited continuous first draft; run `scripts/release_gate.py`, `scripts/audit_scene_depth.py`, `scripts/check_serial_decay.py`, and `scripts/editorial_probe.py`; manually inspect character voice, cost and emotional aftermath. Record structure-only success and human-unverified dimensions separately. A three-episode test is not a five-episode test; an editorial estimate cannot be called measured runtime. If production constraints prevent five *complete* scripts in one pass, deliver the actually completed consecutive scripts and keep the five-episode test open.

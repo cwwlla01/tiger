@@ -1,0 +1,13 @@
+{
+  "workflow_revision":"4.1",
+  "mode":"single",
+  "scope_basis":{"count_source":"user_fixed","requested_episode_count":1,"episode_count_reason":"用户只授权一集；首条真实钓鱼视频发布可在一集完成。","merge_review":"返乡背景并入院子借竿；钓鱼失败、回看及发布连在同一河岸场，不展开季纲。"},
+  "audience_promise":"失业离婚返乡的周岸能否放下漂亮开局执念，把真实失败发成钓鱼账号首条。",
+  "main_engine":"想以成功首钓遮住人生失败，却必须面对手机记录的空钩。",
+  "protagonist_strategy":"借父亲的竿自己钓，拍到第一条鱼才发布；失败后改为如实发布。",
+  "ending_payoff":"首条钓鱼失败视频发布完成，周岸收手机和父亲回家。",
+  "endpoint_kind":"account_launch",
+  "target_seconds":[90,150],
+  "episodes":[{"number":1,"attempt":"录下返乡第一鱼，作为新账号首条。","counteraction":"父亲不代钓，周岸急提竿导致鱼脱钩，手机记录失败。","choice":"保留失败并补录结尾，发布这条视频。","payoff":"界面显示发布成功，账号作品数为一。","cost":"公开不体面的第一次；无已建立的收入或资源损失。","mainline_change":"从以成功为开张门槛，到完成真实首发。","mechanism":"实际首钓失败后改变发布标准。","next_trigger":"首条已发，父子收竿吃饭；账号后续发展开放，不强加续集。","scene_budgets":[{"scene":1,"speech_seconds":17,"independent_action_seconds":7,"pause_seconds":2,"overlapped_action_seconds":3},{"scene":2,"speech_seconds":49,"independent_action_seconds":44,"pause_seconds":8,"overlapped_action_seconds":8}]}],
+  "payoff_debts":[{"id":"launch","setup_episode":1,"due_episode":1,"promised_result":"真实钓鱼内容完成公开发布。"},{"id":"own_attempt","setup_episode":1,"due_episode":1,"promised_result":"主人公亲自进行会失败的钓鱼尝试。"}]
+}

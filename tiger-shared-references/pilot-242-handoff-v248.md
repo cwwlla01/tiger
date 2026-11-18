@@ -1,0 +1,1 @@
+V2.48: Compile each of S01-S04 into one static first-frame prompt and one video Take prompt, preserving the source beat ID, duration intention, camera axis, action state, offscreen sound and transition. Static first frames must not show end-of-Take actions. Do not turn negative constraints into visible objects. Model length is not the editorial length.

@@ -1,0 +1,49 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户指定一集，单次对照辨伪及交付即可解答异常。",
+    "merge_review": "锁门、索赔、辨伪与交付合在一个连续场景，无需另开准备场。"
+  },
+  "audience_promise": "公平地解释两件同貌包裹，并阻止一次骗赔。",
+  "main_engine": "值班员以实物检验抵抗取件人的赔偿施压。",
+  "protagonist_strategy": "先对照真件，再检验假面单的物理破角。",
+  "ending_payoff": "复制面单被揭下，真件拆验完好并正常交付。",
+  "endpoint_kind": "local_mystery_resolved",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "查清被索赔的包裹是否来自本站。",
+      "counteraction": "取件人拿出同号同破角纸箱与坏灯。",
+      "choice": "拒绝即赔，取真件面对面对照并揭纸。",
+      "payoff": "证实照片复制面单，真台灯当面拆验完好。",
+      "cost": "无额外实质损失，值班员付出关门后的核验时间。",
+      "mainline_change": "不可解释的重复包裹成为可验证的骗赔伪装。",
+      "mechanism": "以物理纸角区别实物破损和照片影像。",
+      "next_trigger": "取件完成，坏灯被取件人带走；独立完结，不设续集钩子。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 82,
+          "independent_action_seconds": 38,
+          "pause_seconds": 8,
+          "overlapped_action_seconds": 10
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "duplicate_parcel",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "说明同貌箱体与同号破角面单的复制方式，真件交付。"
+    }
+  ]
+}

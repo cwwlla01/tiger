@@ -1,0 +1,33 @@
+{
+  "mode": "single",
+  "creative_assumptions": "补充人物及场景为创作提案：社区鞋铺，白天；修鞋师傅老周、取新鞋的林女士、刚取回旧鞋的陌生男子。新鞋送来贴防滑底；陌生人自带宽纸袋，旧鞋在袋底，蛋糕盒在上方。",
+  "audience_promise": "从新鞋失踪的紧张转入怕压坏蛋糕的误会，以修鞋手艺与认错行动收束，获得轻松且有因果的喜剧回报。",
+  "main_engine": "师傅急着夺回装错的鞋，袋主急着保护蛋糕，越抢越像偷东西。",
+  "protagonist_strategy": "先凭记忆拦袋找鞋，失败后承认装错，清出工作台并用修鞋用的长鞋拔托住蛋糕底板，让袋主自己取鞋。",
+  "protagonist_limitation": "熟悉鞋和工具，但无权翻陌生人的私人物品，也不能把蛋糕硬拔出窄袋。",
+  "counterforce": "袋主护住给母亲的生日蛋糕，拒绝翻袋或将蛋糕放在有钉子胶渍的工作台；林女士要求核对成双后才收鞋。",
+  "ending_payoff": "双方共同稳住蛋糕并取出新鞋；林女士核对防滑底、把两只新鞋带走；老周拿自己的干净围裙垫台，承认并纠正错误，陌生人携蛋糕和旧鞋离开。",
+  "endpoint_kind": "mistake_repaired",
+  "target_seconds": [90,150],
+  "episodes": [{
+    "number": 1,
+    "attempt": "林女士到门口时，老周发现架上只剩左鞋，立即拦住刚走出一步的陌生人。",
+    "counteraction": "袋主护住上层蛋糕，拒绝老周伸胶手翻袋；林女士不接受拿不出鞋的保证。",
+    "choice": "老周当面承认装错，牺牲干净围裙和工时，清台垫布，让袋主自己操作；用长鞋拔解决蛋糕底板卡袋问题。",
+    "payoff": "蛋糕平稳落台，新鞋从袋底取回，两只鞋的防滑底对应，蛋糕与旧鞋回到陌生人的袋里。",
+    "cost": "围裙沾奶油，老周负责认错并重新分装核对，不能把失误推给顾客。",
+    "mainline_change": "鞋的错装已修复，陌生人被排除偷鞋嫌疑，师傅改为逐双核对交接。",
+    "mechanism": "限时取回物件与保护另一易损物冲突；双方合作解除物理阻碍。",
+    "next_trigger": "本集封闭收束，无待续事件。",
+    "scene_budgets": [
+      {"scene":1,"speech_seconds":25,"independent_action_seconds":8,"pause_seconds":2,"overlapped_action_seconds":3},
+      {"scene":2,"speech_seconds":30,"independent_action_seconds":12,"pause_seconds":3,"overlapped_action_seconds":4},
+      {"scene":3,"speech_seconds":25,"independent_action_seconds":15,"pause_seconds":2,"overlapped_action_seconds":4}
+    ]
+  }],
+  "payoff_debts": [
+    {"id":"shoe","setup_episode":1,"due_episode":1,"promised_result":"取回装进陌生人袋底的新右鞋，与左鞋核对后交还。"},
+    {"id":"bag","setup_episode":1,"due_episode":1,"promised_result":"解释陌生人护袋的理由并保护蛋糕，消除偷鞋嫌疑。"},
+    {"id":"responsibility","setup_episode":1,"due_episode":1,"promised_result":"老周亲口认错并付出清台垫围裙的行动成本。"}
+  ]
+}

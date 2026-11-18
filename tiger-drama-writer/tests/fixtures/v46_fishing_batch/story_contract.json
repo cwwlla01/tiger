@@ -1,0 +1,152 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "retrospective",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 4,
+    "episode_count_reason": "用户固定四集，以实拍失败、首发、改拍、二次发布及劳动边界组成小阶段。",
+    "merge_review": "返乡手续与离婚交代并入开场，注册不单列，第二次拍摄需要首条暴露的信息缺口。"
+  },
+  "genre": "现实轻喜剧",
+  "setting": "当代乡镇，自家厨房与可垂钓岸边；均为创作提案",
+  "presentation": "文字短剧，不指定横竖屏",
+  "audience_promise": "一个想把人生重新包装的程序员，被实际拍摄和父亲的朴素标准不断拆台，最后做出两条不漂亮但确实可看的钓鱼记录。",
+  "main_engine": "想拍得像熟练博主，却必须腾出手和注意力真正学钓鱼；家庭劳力不能无限调用。",
+  "protagonist_strategy": "沿用复现问题、逐项测试、保留失败记录的习惯整理内容，承认这种方法不能代替钓鱼经验。",
+  "ending_payoff": "两条公开视频完成，形成下一次能独立执行的简单拍摄法，并与父亲谈妥帮助边界。",
+  "endpoint_kind": "content_launch",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "把回乡第一次钓鱼拍成体面开场",
+      "counteraction": "父亲只肯教真实动作，侧风把松线缠进支架",
+      "choice": "放弃背熟开场，把失败和父亲示范录成问题",
+      "payoff": "亲自把松线收直、把钩饵送进近水，录到可用失败段落",
+      "cost": "失去当天的成功钓获画面，不构成经济牺牲",
+      "mainline_change": "有实拍素材，知道镜头妨碍观察浮漂",
+      "mechanism": "物理失误引发身份错位",
+      "next_trigger": "当晚剪第一条，实际发布放在第二集",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 42,
+          "independent_action_seconds": 18,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "attempt": "剪出一分钟第一次钓鱼",
+      "counteraction": "风噪盖住关键解释，父亲要归还手机看农事通知",
+      "choice": "用程序测试习惯定位可读性问题，保留原声失败并补静态图注",
+      "payoff": "父亲能依据成片指出他何时没看漂，第一条公开发布",
+      "cost": "取消长自述；当晚没有可靠观众效果",
+      "mainline_change": "账号从空白到有一条内容，下一条必须补看漂",
+      "mechanism": "有限时间内的功能取舍",
+      "next_trigger": "次日拍一条看漂记录",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 42,
+          "independent_action_seconds": 18,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "attempt": "拍到浮漂变化与扬竿之间的真实关系",
+      "counteraction": "父亲不愿替他持续盯屏幕，第一轮拍到漂却没拍到动作",
+      "choice": "锁定支架范围，父亲只喊是否出框，他自己看漂做动作",
+      "payoff": "小鱼进抄网，保留空竿与中鱼两次连续素材",
+      "cost": "放弃脸部特写；小鱼放回，无收入",
+      "mainline_change": "有一条可核对动作的第二期素材，父亲不再兼任替钓者",
+      "mechanism": "观察与记录争夺同一双眼睛",
+      "next_trigger": "当晚发布第二条并形成可持续拍法",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 42,
+          "independent_action_seconds": 18,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "attempt": "把第二条做成对新手有用的内容并约定下一次拍摄",
+      "counteraction": "父亲看不懂加速片段，且不接受每天陪拍",
+      "choice": "删除加速，保留两次漂相对照；改为自己拍基础记录，周日请父亲看一次",
+      "payoff": "第二条发布，两条合集可回看；他独立准备下一次记录",
+      "cost": "放弃日更和父亲随叫随到的劳力，不许诺增长",
+      "mainline_change": "形成小规模内容制作发布循环，工作与感情问题仍在",
+      "mechanism": "内容清晰度与家庭劳动边界协商",
+      "next_trigger": "本阶段收束，不强加悬念",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 42,
+          "independent_action_seconds": 18,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "publish_first",
+      "setup_episode": 1,
+      "due_episode": 2,
+      "promised_result": "第一条真实内容实际发布"
+    },
+    {
+      "id": "watch_float",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "看漂动作通过实钓呈现"
+    },
+    {
+      "id": "publish_second",
+      "setup_episode": 3,
+      "due_episode": 4,
+      "promised_result": "第二条内容完成发布并约定劳动边界"
+    }
+  ]
+}

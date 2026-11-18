@@ -1,0 +1,46 @@
+{
+  "case": "W03",
+  "rules": [
+    {
+      "id": "withdraw",
+      "first_visible_beat": 1,
+      "valid_until": "formal_count"
+    }
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "event": "visible_rule",
+      "text": "投票箱屏幕显示：每人仅可撤回一次；正式计票前有效。"
+    },
+    {
+      "id": 2,
+      "event": "visible_clue",
+      "text": "丙听见警报后捂住通风口；墙上旧铭牌边缘露出‘排气’二字。"
+    },
+    {
+      "id": 3,
+      "event": "vote",
+      "text": "三人分别投票，屏幕显示‘实时预览：赞成2，反对1；尚未计票’。"
+    },
+    {
+      "id": 4,
+      "event": "withdraw",
+      "text": "乙指着通风口：你为什么捂着它？乙按撤回键，预览变为赞成1、反对1、待投1。"
+    },
+    {
+      "id": 5,
+      "event": "reveal",
+      "text": "丙松开袖口，露出铭牌全文‘警报后自动排气’，解释警报不是救援信号。"
+    },
+    {
+      "id": 6,
+      "event": "formal_count",
+      "text": "正式计票启动，系统锁定已投票项，显示最终有效票数。"
+    }
+  ],
+  "claims": {
+    "withdraw_legality": true,
+    "fair_reveal": true
+  }
+}

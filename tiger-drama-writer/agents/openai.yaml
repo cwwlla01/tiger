@@ -1,0 +1,13 @@
+interface:
+  display_name: 01 剧本创作与审核优化
+  short_description: 规划有铺垫的戏剧兑现，创作完整短剧
+  default_prompt: 使用 $tiger-drama-writer 规划聚焦的高潮、承接人物成长、写出完整场景，并审查用户要求的剧情兑现。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

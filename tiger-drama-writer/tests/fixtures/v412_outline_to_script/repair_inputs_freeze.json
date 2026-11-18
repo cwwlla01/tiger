@@ -1,0 +1,18 @@
+{
+  "scope": "all pre-existing raw trial artifacts; preserve unchanged",
+  "files": {
+    "preflight.json": "efac348cf9a76c11d420f0ea81a7b39627aa4e25121a15b0fc95b5c4f7be0970",
+    "evaluation.md": "f463e140703b5de4c337c25b2d72dfe48d3a2dedaa66657ad8b8c4ef9a1b7c69",
+    "prewriting_new.md": "8a2f407e25471e988a15c521020e7bd7408eb164a378ae44e683dcb534fb5b58",
+    "editorial_ledger.json": "3fe580dea92ccd5f93f9b8cc46f18b0c535dd1ebecc56a9f62b9cf2cd4f94b04",
+    "raw_freeze.json": "fb0ef84542b3abe064f595281ad4a48d3561f52c6e817fbbc5e7fb787f79380e",
+    "review.json": "2e6cf8fb5844b3fdc10950206db16ec7f9b84cb2c1af7137c84fe0eff114dd79",
+    "story_contract.json": "d51ec6bd7d86ba40bb079042228aa0de51eb12448832a801ef75c11cfafc3f7e",
+    "diagnostic.json": "658bb7d3f8cf95e6d23bfedaaa8be2bd7b50dea02ffccfadfd1caca01c238d9e",
+    "outline_inherited.md": "9eafd67b23df0752fe3ab1a7bb88069d1f81371872b9e6485d6096a5eb926427",
+    "story_contract_inherited.json": "d51ec6bd7d86ba40bb079042228aa0de51eb12448832a801ef75c11cfafc3f7e",
+    "EP01_raw.md": "588b2aa2d588cc47d0f38863752a45bba5fe47ac4ac4bb961678bfc8237d9a11",
+    "EP02_raw.md": "de1efc65ed777bbbf6057d46ccc71df60ef98ca844d61a7f65072d9b0dcec979",
+    "EP03_raw.md": "d74666cbd44c09e40d08ff9ae22443120ddcc24b510b7b1bf791b2e22f184045"
+  }
+}

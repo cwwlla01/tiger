@@ -1,0 +1,74 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "e3339c6075b687781b4f0b6e24b893d8e54a19f2158ec645de89453c6333efd1",
+      "day": 1,
+      "day_quote": "第1天上午",
+      "mechanism": {
+        "obstacle": "退钱不能补买家父亲的座位",
+        "tactic": "收回不稳折叠凳并承担修理和自家椅替代",
+        "outcome": "找到原物并约定次日交换",
+        "quote": "我家吃饭那把。明天，我连座位一起送到。"
+      },
+      "outcome_kind": "located_object_and_exchange_agreement",
+      "outcome_quote": "△ 小林点头，将收据交给他。"
+    },
+    {
+      "number": 2,
+      "sha256": "afcbe7aaec54892fd789d72b8d039ca71f60c40cb1b03e3d7edaf45988bb42b4",
+      "day": 2,
+      "day_quote": "## SC01 INT. 街口木工铺 — 第2天下午四点",
+      "mechanism": {
+        "obstacle": "长期让出唯一餐椅会牺牲周的生活",
+        "tactic": "明确一周借期并下单新椅",
+        "outcome": "双方座位获安排，原物按时归还",
+        "quote": "成。我现在订新椅，一周后肯定归还。"
+      },
+      "outcome_kind": "object_return_and_relationship_repair",
+      "outcome_quote": "△ 墙钟指向四点五十分。旧椅落在餐桌边，四腿稳稳着地。"
+    }
+  ],
+  "time_links": [
+    {
+      "source_episode": 1,
+      "target_episode": 2,
+      "offset_days": 1,
+      "quote": "明天五点前，我送回来。修理也算我的。"
+    }
+  ],
+  "editorial_assessments": [
+    {
+      "topic": "误售责任与许可",
+      "quote": "这回知道问了。",
+      "assessment": "周在第一集已开始改行为，结尾先问再坐是巩固而非突然转性。"
+    },
+    {
+      "topic": "代价落地",
+      "quote": "退款加你垫的定金，齐了。",
+      "assessment": "周收30后支出50给小林、20给木匠，净支出40；买家原花30+20，收回50，修理铺收满40，无凭空收益。"
+    },
+    {
+      "topic": "旧物情感回报",
+      "quote": "孩子跑到旧椅旁，比着椅背上的浅刻痕站直。",
+      "assessment": "身高刻痕在第一集说明原物不可替代，第二集用下一代实际比高完成回报，非只靠口头原谅。"
+    },
+    {
+      "topic": "喜剧手法与边界",
+      "quote": "试乘没过，不能上客。",
+      "assessment": "座椅检查、路线记账、搬运起步体现司机习惯；不将其写成万能木匠，折叠凳方案被拒并撤回。"
+    },
+    {
+      "topic": "已修复连续性",
+      "assessment": "原稿把父亲到店写为明早，交换却在第二天下午；一轮修订将到店改为明天傍晚。将三副碗筷改为四副，并实际写女儿和孩子到家。"
+    },
+    {
+      "topic": "限制",
+      "assessment": "两集各两场，篇幅和短对白提示保留，场内均有任务、抵抗、变化。第一集代理时长上界超过150秒，未有实演证据。买家第二集质疑较轻，主要是温情收束；未声称独立读者或受众验证。"
+    },
+    {
+      "topic": "第二轮定点修订",
+      "assessment": "取消没有星期锚点的“周五/周四”，明确为一周借期、两天内到货，避免相对期限含混。"
+    }
+  ]
+}

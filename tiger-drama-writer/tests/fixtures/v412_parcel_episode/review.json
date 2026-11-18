@@ -1,0 +1,73 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "tests/fixtures/v412_parcel_episode/EP01.final.md",
+      "sha256": "e0c26469fc87ae906e29ac41e35476e5195e4c135eb3a911c8235412577d4264",
+      "scenes": 1,
+      "dialogue_han": 164,
+      "dialogue_turns": 20,
+      "body_han": 748,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 164,
+        "dialogue_turns": 20,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          45,
+          90
+        ],
+        "target_90_150s": "OUTSIDE_PROXY_RANGE_REVIEW",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "原来全印在同一张完整纸上",
+        "assessment": "本场从赔偿要求到拿真件对照，经过触摸和揭纸实际区分照片与破角，再当面拆验交付，核心异常已被行动解答。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

@@ -1,0 +1,16 @@
+{
+  "project": "UNASSIGNED",
+  "source_type": "TEST_SCRIPT_ONLY",
+  "authoritative_script": null,
+  "script_version": null,
+  "asset_manifest": null,
+  "storyboard_03": null,
+  "static_prompts_04": null,
+  "video_prompts_05": null,
+  "independent_qa_06": null,
+  "video_evidence": null,
+  "known_local_blocks": [
+    "S07_LAYOUT_UNVERIFIED"
+  ],
+  "notes": "Original test script exists, no confirmed formal project screenplay or asset master."
+}

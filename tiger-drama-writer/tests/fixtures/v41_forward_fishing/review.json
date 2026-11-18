@@ -1,0 +1,76 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v41_forward_fishing/EP01.md",
+      "sha256": "0ad3e1e10e1959871b7186b4594c01b39b7f7bd0d37a25718ee5725ccaa8a9d4",
+      "scenes": 2,
+      "dialogue_han": 228,
+      "dialogue_turns": 25,
+      "body_han": 741,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 228,
+        "dialogue_turns": 25,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          70,
+          146
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "周大成端着案板过来，按住袋口。",
+        "assessment": "儿子要借买来的鱼制造成绩，父亲按袋并取走；儿子说出羞耻后父亲以晚饭人数代替追责，儿子放弃鱼去拍自己的。拒绝、关系温度与新选择都已可演；未单拆失业离婚回村。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "他把进度条拖回开头。画面里的自己摆桶、找位置；父亲又伸指。",
+        "assessment": "父亲的划走阻力经复现而定位到开头六秒；周野裁剪再播放，父亲留下看；标题更正、分享、父亲点赞和放下手机盛饭形成真实发布及家庭落点。塘边下午的实际垂钓没有独立场，靠空桶和已有视频承接，属于最短闭环的取舍，不能宣称钓技成立。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

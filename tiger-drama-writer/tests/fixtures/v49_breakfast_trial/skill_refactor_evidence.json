@@ -1,0 +1,25 @@
+{
+  "before_main_words": 2472,
+  "after_main_words": 1356,
+  "count_method": "Unicode whitespace split of complete SKILL.md, including unchanged frontmatter",
+  "main_reduction_percent": 45.15,
+  "preserved": "八项全文手工复核问题逐字移到review-policy，仅修正相对链接；工具脚本、schema 4.1及185项既有测试未改",
+  "deliberate_change": "必读参考改为按任务/阶段选择；取消固定三个引擎候选的配额，保留按需比较实质不同方案",
+  "actual_reference_reads_reported_by_writer": [
+    "creation-contract.md",
+    "review-policy.md",
+    "genre-engine.md",
+    "promise-and-causality.md",
+    "timing-and-evidence.md"
+  ],
+  "method_limits": "只对新版做一个新任务的模型试写，不是相同任务的前后受控比较；主文件长度减少不代表总包大小、实际token、耗时或作品质量同比改善",
+  "new_raw_episodes": 1,
+  "inherited_raw_episodes": 0,
+  "revision_rounds": 0,
+  "runtime_proxy_seconds": [
+    69,
+    144
+  ],
+  "measured_runtime_seconds": null,
+  "script_sha256": "4036ad3c7621e1952d99b96e2b1e3d07f9db2ece944790fc3e3137184d400e0b"
+}

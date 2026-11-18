@@ -1,0 +1,28 @@
+{
+  "fixture": "v41_forward_cafe",
+  "requested_episodes": 1,
+  "full_episodes": 1,
+  "inherited_raw": 0,
+  "new_raw": 1,
+  "unfinished_episodes": 0,
+  "revision_passes": 1,
+  "measured_episodes": 0,
+  "independent_human_readers": 0,
+  "temporary_authoring_scripts": [],
+  "files": [
+    "EP01_raw.md",
+    "EP01_revised.md",
+    "delivery_record.md",
+    "direction.md",
+    "editorial_ledger_raw.json",
+    "editorial_ledger_revised.json",
+    "preflight.json",
+    "review_raw.json",
+    "review_raw_preliminary.json",
+    "review_revised.json",
+    "review_revised_preliminary.json",
+    "revision_log.md",
+    "story_contract.json",
+    "manifest.json"
+  ]
+}

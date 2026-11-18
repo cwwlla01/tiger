@@ -1,0 +1,80 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v44_suspense_baseline/EP01.raw.md",
+      "sha256": "8dcfb25eeb49c81507d8ccc6d4696c049282ea9ff1fa005d884b7859dc4178b6",
+      "scenes": 2,
+      "dialogue_han": 253,
+      "dialogue_turns": 21,
+      "body_han": 707,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 253,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          75,
+          154
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 1,
+      "detail": {
+        "episode": 1,
+        "dialogue_han": 253,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          75,
+          154
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "SEMANTIC_LEDGER_NOT_SUPPLIED"
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "unassessed",
+  "semantic_annotations_state": "unassessed",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

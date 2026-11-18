@@ -1,0 +1,105 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "293b68fd67e21fcf7db500ad639f92e665c5eb59c5a0d61654e2e47072cfaa3e",
+      "day": 1,
+      "day_quote": "返乡第1日",
+      "mechanism": {
+        "obstacle": "体面开场无法成立",
+        "tactic": "公开真实失败",
+        "outcome": "首片发布并带来具体观众意见",
+        "quote": "周序：这条……透明品种。"
+      },
+      "outcome_kind": "channel_launch",
+      "outcome_quote": "页面出现可播放的成片。"
+    },
+    {
+      "number": 2,
+      "sha256": "7eeb5ed2cc5affb6a83e87e7c2333ccf77c072b58deaf84ce001998b27ef9239",
+      "day": 2,
+      "day_quote": "返乡第2日",
+      "mechanism": {
+        "obstacle": "抢拿手机导致脱钩",
+        "tactic": "回放诊断并公开错误",
+        "outcome": "观众看修正版并约下一次",
+        "quote": "周序：不是手机没拍到。是我不信它在拍。"
+      },
+      "outcome_kind": "viewer_commitment",
+      "outcome_quote": "阿芬：行。我看着，不替你拿。"
+    },
+    {
+      "number": 3,
+      "sha256": "3171d70a6497fabe3178b5135543e58af663f73a5daf992a37488b005a8b8cf2",
+      "day": 3,
+      "day_quote": "返乡第3日",
+      "mechanism": {
+        "obstacle": "再度出现抢手机冲动与落鱼难度",
+        "tactic": "固定录制并自行操作抄网",
+        "outcome": "鱼入网，连续视频发布，阿芬实际关注",
+        "quote": "周序：爸，别过来。网我够得到。"
+      },
+      "outcome_kind": "skill_and_channel_launch",
+      "outcome_quote": "页面显示发布成功。阿芬当面打开账号，点开这条视频，按下关注。"
+    }
+  ],
+  "time_links": [],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "老周：饭还热。先吃，别连锅也优化了。",
+      "assessment": "返乡两箱引出失业离婚，儿子提出拍摄，父亲质疑能力，手机滑落把抽象体面冲突落成笑料。短场具具体关系与转向，不需为字数扩写。"
+    },
+    {
+      "episode": 1,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "老周：桶放下。那是我随便的。",
+      "assessment": "借鱼建立高手形象被父亲拦下，真实下竿钓到袋子，主角不删，具有失败与改策前提。"
+    },
+    {
+      "episode": 1,
+      "scene": 3,
+      "decision": "retain",
+      "quote": "认识我，不等于我得一直演得挺好。",
+      "assessment": "面对熟人看失败的顾虑，剪片后实际发布；父亲实际转群、阿芬提出针对画面的问题，公开行为与后续压力俱在。"
+    },
+    {
+      "episode": 2,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "周序：漂看得见，人也没出画。通过。",
+      "assessment": "观众依已发内容当面提出需求，夹子由其职业与自带物件提供，主角亲自试录回放确定范围；为随后他亲手破坏固定拍摄建立基准。"
+    },
+    {
+      "episode": 2,
+      "scene": 3,
+      "decision": "retain",
+      "quote": "周序：有原因了。比昨天进了一格。",
+      "assessment": "公开脱钩段落与文字修正，阿芬已观看修正版再预约；实质是可信观众联系，并非名人点赞或付费收益。"
+    },
+    {
+      "episode": 3,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "周序：它上它的班，我上我的。",
+      "assessment": "履约到场、固定试录、放抄网，老马针对无收入挑衅，空桶留在画面里；把第二集教训变成操作，不是重复认错。"
+    },
+    {
+      "episode": 3,
+      "scene": 2,
+      "decision": "unresolved",
+      "quote": "周序双手把网拖上岸，坐在地上喘气。",
+      "assessment": "起鱼与不抢手机的决定已写出；但前文一手持竿一手持网，转为双手拖网前未交代竿的去向，动作衔接有小缺口。原稿保留，不替文本补出放竿。"
+    },
+    {
+      "episode": 3,
+      "scene": 3,
+      "decision": "unresolved",
+      "quote": "老周在手机上按住村钓友群的语音键。",
+      "assessment": "真实起鱼素材、传片发布与阿芬关注已完成；父亲公开署名只明确到按住录音并讲话，缺少松手发送或群中已发状态。普通表演可以补足，但当前源文不能把该重要承诺当作明确完成。另阿芬说转两位尚未实际转，老马拿手机尚未关注，均不得计作已完成受众增长。 末句工牌原来挂着的竿袋也缺前文支持：EP01明确工牌从箱子解下后塞进箱子。"
+    }
+  ]
+}

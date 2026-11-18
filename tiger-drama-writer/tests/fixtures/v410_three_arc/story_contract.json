@@ -1,0 +1,26 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "内部测试固定三集，非现实用户集数；第一集建立真实发布，第二集造成并保留拍摄操作损失，第三集回收为完整起鱼。",
+    "merge_review": "返乡手续仅留箱子交锋；试录与观众反馈合并一场；三集分别改变公开身份、操作策略和实际完成状态。"
+  },
+  "audience_promise": "失业离婚返乡的新手把真实失败做成内容，逐步获得本地观众与一次完整实钓胜利。",
+  "main_engine": "体面欲与不受控制的真实垂钓冲突，失败公开后引发观众需求。",
+  "protagonist_strategy": "保留失败，按观众反馈试录验证，最后固定手机并专注完成起鱼。",
+  "ending_payoff": "周序独立把鱼送入抄网，连续录像保存并公开，父亲在群里公开承认儿子的成果。",
+  "endpoint_kind": "skill_and_channel_launch",
+  "target_seconds": [90, 150],
+  "episodes": [
+    {"number":1,"attempt":"拍高手开场，建立体面返乡身份。","counteraction":"父亲不借鱼冒领，周序实际只钓出塑料袋。","choice":"保留空军实况，以新手身份发布。","payoff":"第一条真实视频公开，父亲转给本地钓友，阿芬提出具体画面意见。","cost":"主动让熟人看见失败，没有额外金钱损失。","mainline_change":"从隐瞒处境到真正发布。","mechanism":"失败转为公开叙述。","next_trigger":"阿芬追问漂在哪儿。","scene_budgets":[{"scene":1,"speech_seconds":29,"independent_action_seconds":7,"pause_seconds":3,"overlapped_action_seconds":4},{"scene":2,"speech_seconds":31,"independent_action_seconds":13,"pause_seconds":3,"overlapped_action_seconds":5},{"scene":3,"speech_seconds":27,"independent_action_seconds":8,"pause_seconds":3,"overlapped_action_seconds":4}]},
+    {"number":2,"attempt":"按阿芬意见拍清实钓过程。","counteraction":"咬钩时拿手机使线松，鱼脱钩。","choice":"发布操作失误与修正，而非冒充成功。","payoff":"得到阿芬真实的次日实钓拍摄预约。","cost":"失去一次实际起鱼机会，保留公开的错误。","mainline_change":"从真实但无用的失败片到能被观众拿来学习的内容。","mechanism":"复看失误并落实拍摄约定。","next_trigger":"阿芬明天再来，要求看完整一次。","scene_budgets":[{"scene":1,"speech_seconds":29,"independent_action_seconds":9,"pause_seconds":3,"overlapped_action_seconds":5},{"scene":2,"speech_seconds":27,"independent_action_seconds":16,"pause_seconds":4,"overlapped_action_seconds":4},{"scene":3,"speech_seconds":24,"independent_action_seconds":8,"pause_seconds":3,"overlapped_action_seconds":3}]},
+    {"number":3,"attempt":"履行预约，独立起鱼并保全录像。","counteraction":"老马看笑话，鱼咬钩触发主角拿手机的旧反应。","choice":"手留在竿上，依靠事先验证的固定录像，不叫父亲代操作。","payoff":"鱼独立入网，连续素材查验发布，父亲公开署名。","cost":"没有额外实质损失；成果很小且不能证明可维生。","mainline_change":"同时得到真实技能结果和完整内容，建立可继续的本地观众联系。","mechanism":"准备与克制兑现完整操作。","next_trigger":"阿芬带两位店内钓友下次来，三集阶段问题已回答。","scene_budgets":[{"scene":1,"speech_seconds":22,"independent_action_seconds":9,"pause_seconds":3,"overlapped_action_seconds":4},{"scene":2,"speech_seconds":26,"independent_action_seconds":23,"pause_seconds":4,"overlapped_action_seconds":5},{"scene":3,"speech_seconds":29,"independent_action_seconds":9,"pause_seconds":3,"overlapped_action_seconds":4}]}
+  ],
+  "payoff_debts": [
+    {"id":"truthful_launch","setup_episode":1,"due_episode":1,"promised_result":"实际发布真实失败"},
+    {"id":"recording_habit","setup_episode":1,"due_episode":3,"promised_result":"固定录像，不再丢竿去拿手机"},
+    {"id":"complete_catch","setup_episode":2,"due_episode":3,"promised_result":"独立起鱼并保留全过程"},
+    {"id":"father_credit","setup_episode":1,"due_episode":3,"promised_result":"父亲公开承认真实成果"}
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v46_fishing_batch/EP01.raw.md",
+      "sha256": "09a3367f43a3cd052c6a9452609f3da92f5e31822dcbedeec7d0e6515f462dc2",
+      "scenes": 2,
+      "dialogue_han": 203,
+      "dialogue_turns": 21,
+      "body_han": 651,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 203,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          65,
+          138
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 2,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v46_fishing_batch/EP02.raw.md",
+      "sha256": "41107d145e6032ad8fa9af689b80be72fb62a867d73693d01c2abfa4ce2600bd",
+      "scenes": 2,
+      "dialogue_han": 246,
+      "dialogue_turns": 22,
+      "body_han": 657,
+      "runtime_proxy": {
+        "episode": 2,
+        "dialogue_han": 246,
+        "dialogue_turns": 22,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          73,
+          152
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 3,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v46_fishing_batch/EP03.raw.md",
+      "sha256": "6d10bd7e357c45ab611b2ad61ccb2bfe1df7b0b0882346b85eb78cc74dbf915c",
+      "scenes": 2,
+      "dialogue_han": 189,
+      "dialogue_turns": 22,
+      "body_han": 652,
+      "runtime_proxy": {
+        "episode": 3,
+        "dialogue_han": 189,
+        "dialogue_turns": 22,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          62,
+          133
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 4,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v46_fishing_batch/EP04.raw.md",
+      "sha256": "322e88b6b6ca79ba84d2c22c3e4e9216f1d7ab253c3b4eb36d2726f49a9d25a0",
+      "scenes": 2,
+      "dialogue_han": 243,
+      "dialogue_turns": 21,
+      "body_han": 697,
+      "runtime_proxy": {
+        "episode": 4,
+        "dialogue_han": 243,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          73,
+          151
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "FEW_SCENES",
+      "episode": 2
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 2
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 2
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 2,
+      "detail": {
+        "episode": 2,
+        "dialogue_han": 246,
+        "dialogue_turns": 22,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          73,
+          152
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "FEW_SCENES",
+      "episode": 3
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 3
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 3
+    },
+    {
+      "code": "FEW_SCENES",
+      "episode": 4
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 4
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 4
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 4,
+      "detail": {
+        "episode": 4,
+        "dialogue_han": 243,
+        "dialogue_turns": 21,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          73,
+          151
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "SEMANTIC_LEDGER_NOT_SUPPLIED"
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "unassessed",
+  "semantic_annotations_state": "unassessed",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

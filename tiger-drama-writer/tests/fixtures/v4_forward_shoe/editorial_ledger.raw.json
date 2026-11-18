@@ -1,0 +1,17 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "0d17acabb4c488d45ea456ca5f2292486bb4990a261c62bf3144aa5f3ca62f51",
+      "mechanism": {
+        "obstacle": "袋内上层蛋糕阻碍取回错装新鞋",
+        "tactic": "认错、清台并用长鞋拔托住蛋糕",
+        "outcome": "新鞋取回，蛋糕平稳取出",
+        "quote": "老周：刚才手快，装错袋了。是我的错。"
+      },
+      "outcome_kind": "mistake_repaired",
+      "outcome_quote": "林女士把双鞋装入自己的布袋。"
+    }
+  ],
+  "time_links": []
+}

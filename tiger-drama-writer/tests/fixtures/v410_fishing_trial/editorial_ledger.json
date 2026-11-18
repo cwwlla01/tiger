@@ -1,0 +1,25 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "b61e465344f8b851cabef7a6fe29dd9ad9224ecc707ab68cc3e019cbb9eabcee",
+      "mechanism": {
+        "obstacle": "首钓急提导致鱼脱钩，成功开局未得到",
+        "tactic": "保留失败并补录结尾，改变发布门槛",
+        "outcome": "公开发布钓鱼账号首条作品",
+        "quote": "周岸取消删除，把手机重新放回钓箱"
+      },
+      "outcome_kind": "account_launch",
+      "outcome_quote": "界面显示“发布成功”，个人主页出现第一条作品，播放数为0。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "老周抽出一根旧竿，塞给他。",
+      "assessment": "这是必要的紧凑前置：返乡者收起离婚材料后主动借竿开账号，父亲只交竿、不代钓，目标与独立尝试边界落在物件转移上。不是独立高潮，但无需给每场添加新失败。当前原稿可保留；短场提示不等于缺戏。"
+    }
+  ]
+}

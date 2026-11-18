@@ -1,0 +1,88 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v49_breakfast_trial/EP01_raw.md",
+      "sha256": "4036ad3c7621e1952d99b96e2b1e3d07f9db2ece944790fc3e3137184d400e0b",
+      "scenes": 2,
+      "dialogue_han": 223,
+      "dialogue_turns": 30,
+      "body_han": 629,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 223,
+        "dialogue_turns": 30,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          69,
+          144
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "林晓一僵，把价目牌举到脸前。老周从牌边探头。",
+        "assessment": "目的为顺利开张并躲避旧客户；举牌遮脸被探头与声音识别击破；主角放下牌接单，转入无法靠电话结束的面对面交易。短场含实际行为和转折，人物履历两句带过，没有缺失中间决定。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "林晓把钱扫进盒里，嘴又先动了。",
+        "assessment": "例行客套使需求延后暴露，抹错辣酱产生重做后果；改用明确选项后成功交付收款；同一句客套差点复发而被本人截住，旧客户的挂电话动作完成喜剧回扣。让座使顾客被看作真实的人，未代替主角解决订单。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

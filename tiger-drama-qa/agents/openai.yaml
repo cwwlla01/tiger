@@ -1,0 +1,12 @@
+interface:
+  display_name: 短剧全流程独立质检
+  short_description: 独立审查AI短剧从剧本、资产解析及资产生图提示词、导演分镜、静帧提示词到视频提示词的跨文件一致性、来源证据、版本冻结与生产验收。适用于“06验收”“全流程质检”“审核02/03/04/05”“能否投产”“审查资产/提示词产出”等请求；只做审核、报告与退回，不擅自修改权威母版或代替人工批准。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,142 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "三集为本轮内部测试给定参数，并非真实用户历史集数；三集分别承载真实发布、需求验证与预约、付费兑现。",
+    "merge_review": "返乡背景与开工决定合并；发布、反馈与交付分别改变不同资源和义务，不拆行政准备集。"
+  },
+  "audience_promise": "以真实钓鱼内容及按反馈改进，挣到账号带来的首笔实际服务结余并取得下一次工作主动权。",
+  "main_engine": "想用完美成片掩盖失败，与用户必须实际学会之间的冲突。",
+  "protagonist_strategy": "拆解失败，先让用户复现，再补漏步骤并兑现服务。",
+  "ending_payoff": "完成首场六人付费活动，594元收入减180元费用，结余414元。",
+  "endpoint_kind": "audience_business_first_transaction",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "拍一条能证明自己重新开工的钓鱼视频",
+      "counteraction": "钓鱼与手机记录均失败",
+      "choice": "保留失败，调整手机位置，重新完成钓鱼尝试",
+      "payoff": "独立钓到小鱼并发布有完整过程的首条内容",
+      "cost": "无额外损失；尚无外部反馈或收入",
+      "mainline_change": "从隐藏失败到真实发布",
+      "mechanism": "失败后改变拍摄和表达方式",
+      "next_trigger": "父亲经同意转发到县城钓友群",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 20,
+          "independent_action_seconds": 17,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 28,
+          "independent_action_seconds": 24,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 10,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "attempt": "让第一位试学者照视频完成操作",
+      "counteraction": "视频漏步骤，新手无法复现",
+      "choice": "观察卡点，补全准备过程并重做教程",
+      "payoff": "新手独立抛竿；六人缴预约金成团",
+      "cost": "形成一次必须按约兑现的付费义务，预约金不是利润",
+      "mainline_change": "从发布内容到获得有来源的付费需求",
+      "mechanism": "用户复现失败引发教程改写及预约",
+      "next_trigger": "六人到场等待已确认活动",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 18,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 30,
+          "independent_action_seconds": 27,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 18,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "attempt": "完成首次六人付费钓鱼新手活动",
+      "counteraction": "一人学不会并要求退款",
+      "choice": "先退款，再补讲并让其独立尝试",
+      "payoff": "教学完成，六人确认服务并支付尾款，结余414元",
+      "cost": "先退预约金使一席收入真实处于失去状态；小方重新参与是自主选择",
+      "mainline_change": "从持有预约金到实际完成账号带来的付费服务",
+      "mechanism": "服务失败引发责任承担和个别补教",
+      "next_trigger": "阶段收束：获得下一次工作主动权，长期谋生仍未解决",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 18,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 38,
+          "independent_action_seconds": 34,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 15,
+          "independent_action_seconds": 12,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "real_content",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "真实尝试及完整过程发布"
+    },
+    {
+      "id": "user_reproducibility",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "将补漏方法用于实际服务"
+    },
+    {
+      "id": "paid_delivery",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "实际教学完成、客户确认并结清费用"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "purpose": "历史真实试稿的定向完成状态评估，不是新写剧本、受众测试或受控A/B",
+  "cases": {
+    "A.md": {
+      "source": "../v47_repair_audio/EP01_revised.md",
+      "history": "V4.7修订后的完整正文",
+      "sha256": "5106b3ffb3cba49644813c670c51bd01171cb112d23d34934c2f08bddd35072b"
+    },
+    "B.md": {
+      "source": "../v46_audio_mystery/EP01_raw.md",
+      "history": "V4.6保留未改的一稿正文",
+      "sha256": "5c2e0063ed9cfe928e1f799ef590d900e52357afb9f8e0dc89e31937cc857cb2"
+    }
+  },
+  "method": "先冻结A/B正文，再由新上下文模型仅读两稿及必要Skill引用；不向模型提供历史来源、原自评或预设答案；任务明确聚焦结尾行动状态。",
+  "limits": "定向复读能否分清这些状态，不等于一般全文评估会自发稳定发现所有遗漏，也不证明新写作品质量提升。"
+}

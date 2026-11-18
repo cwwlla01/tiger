@@ -1,0 +1,27 @@
+{
+  "status": "SOURCE_DIFF_ONLY",
+  "archives": {
+    "v238_sha256": "577619892b7b6e0890119dc2ad98969df43bae1350268d77eadbe51a8c7a1ca5",
+    "v239_sha256": "0ba6c15c637b6b61dc22c5d506ec403848e12e3e9a5feca7efff413ccbeaec3c"
+  },
+  "files_added": [
+    "tiger-drama-director/references/scene-benchmark-rule-pruning-v239.md"
+  ],
+  "files_removed": [],
+  "files_changed": [
+    "tiger-drama-director/SKILL.md"
+  ],
+  "skill_diff_lines": [
+    "--- V2.38/SKILL.md",
+    "+++ V2.39/SKILL.md",
+    "@@ -178,3 +178,6 @@",
+    " ",
+    " ## V2.38 场次镜头语言优先级与实测门禁",
+    " - 必须先阅读 [V2.38 场次镜头语言与对照评估](references/scene-language-evaluation-v238.md)；旧版规则仍可按需查阅，但不得机械叠加检查或将合成结构测试宣称为真实艺术提升。",
+    "+",
+    "+## V2.39 场次实测与规则减负",
+    "+优先执行 `references/scene-benchmark-rule-pruning-v239.md` 的单一路径；同义历史规则不重复展开。完整场次 A/B 必须独立生成、保留来源与哈希；无实测或盲审不得宣称艺术质量提升。"
+  ],
+  "historical_runs_executed": false,
+  "blind_review_performed": false
+}

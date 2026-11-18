@@ -1,0 +1,98 @@
+{
+  "intent": "seedance_prompt",
+  "delivery_type": "seedance_prompt",
+  "delivery_status": "CANDIDATE",
+  "channel": {
+    "platform": "jimeng_web",
+    "model_display_name": "Seedance 2 Fast",
+    "proof_scope": "unknown",
+    "multishot_proof": "unverified",
+    "supported_durations_s": []
+  },
+  "source_document": {
+    "path": "01.md",
+    "sha256": "4488088205aae6ee06eaf925c6e45274224de09eb9c9b37f09d0397c3edb970d",
+    "authority": "CANDIDATE",
+    "role": "01_SCRIPT"
+  },
+  "director_document": {
+    "path": "03.md",
+    "sha256": "fe8a08f780dd5109b38cccbeca921bb9bc02f5ce6ca91c4d781d9eefa045d0d8",
+    "authority": "CANDIDATE",
+    "role": "03_DIRECTOR"
+  },
+  "director_shots": [
+    {
+      "shot_id": "SH01",
+      "director_quote": "一个连续中近景 SH01 → 一个生成 Take T01。",
+      "prompt_quote": "一个连续的中近景"
+    }
+  ],
+  "duration_policy": {
+    "selected_seconds": 6.5,
+    "origin": "dramatic_pacing",
+    "reason": "惊恐喘息与欲逃失败、双眼颜色异变、发根到发梢转蓝和完成后停顿需依次清楚可见。"
+  },
+  "narrative_style": "NATURAL",
+  "editorial_shots": [
+    {
+      "id": "SH01"
+    }
+  ],
+  "takes": [
+    {
+      "id": "T01",
+      "grouping": "SINGLE",
+      "shot_ids": [
+        "SH01"
+      ],
+      "generated_seconds": 8,
+      "edit_in_seconds": 0,
+      "edit_out_seconds": 6.5,
+      "prompt": "电影级3D国漫CG，暗而真实的废弃室内，固定在房间左上方的冷色灯光照着同一个人，墙面与衣服材质连续不变。一个连续的中近景，机位始终位于人物正前略偏右，轻微缓慢推近，不切镜头，不改变人物面容与服装。\n\n一个人背靠墙壁，被恐惧逼得呼吸急促、指尖攥住胸前衣服，眼神不停寻找逃路；他试图迈步，双腿却发软。突然，他全身僵住，身体颤抖骤停，眼底的惊惧还没有消失，眼瞳由原先的颜色变为清晰的蓝色。紧接着蓝色从发根沿整头发丝蔓延，头发完全转为蓝色，发丝微微扬起。他渐渐松开攥衣服的手，喘息稍缓，慢慢抬头。终态保持可见：双眼眼瞳清晰呈蓝色，整头头发清晰呈蓝色；脸上泪痕尚在，人物依旧站在原位。\n\n全程无台词、无旁白、不添加新角色或攻击动作，不发生额外服装变化，不使用突然的强烈闪光遮蔽眼睛或发色变化。背景环境与顶灯受光方向持续保持一致。",
+      "visible_payoffs": [
+        {
+          "shot_id": "SH01",
+          "at_seconds": 6.2,
+          "visible_result": "两个眼瞳与整头头发已经清楚转为蓝色，保留完成后微表情",
+          "prompt_quote": "双眼眼瞳清晰呈蓝色，整头头发清晰呈蓝色",
+          "source_quote": "眼瞳由原先的颜色变为清晰的蓝色。"
+        }
+      ]
+    }
+  ],
+  "critical_events": [
+    {
+      "id": "EV-EYE",
+      "take_id": "T01",
+      "source_quote": "眼瞳由原先的颜色变为清晰的蓝色。",
+      "prompt_quote": "眼瞳由原先的颜色变为清晰的蓝色",
+      "shot_id": "SH01",
+      "director_quote": "眼瞳转蓝",
+      "state_effects": {
+        "character.eye_color": "BLUE"
+      }
+    },
+    {
+      "id": "EV-HAIR",
+      "take_id": "T01",
+      "source_quote": "头发完全转为蓝色。",
+      "prompt_quote": "头发完全转为蓝色",
+      "shot_id": "SH01",
+      "director_quote": "头发从发根转蓝",
+      "state_effects": {
+        "character.hair_color": "BLUE"
+      }
+    }
+  ],
+  "sequence_groups": [
+    {
+      "id": "SC01-TRANSFORMATION",
+      "mode": "SOURCE_ORDER",
+      "event_ids": [
+        "EV-EYE",
+        "EV-HAIR"
+      ]
+    }
+  ]
+}

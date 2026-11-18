@@ -1,0 +1,317 @@
+{
+  "policy_version": "4.1",
+  "mode": "season",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v412_outline_to_script/EP01_raw.md",
+      "sha256": "588b2aa2d588cc47d0f38863752a45bba5fe47ac4ac4bb961678bfc8237d9a11",
+      "scenes": 3,
+      "dialogue_han": 122,
+      "dialogue_turns": 15,
+      "body_han": 625,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 122,
+        "dialogue_turns": 15,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          60,
+          146
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 2,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v412_outline_to_script/EP02_raw.md",
+      "sha256": "de1efc65ed777bbbf6057d46ccc71df60ef98ca844d61a7f65072d9b0dcec979",
+      "scenes": 3,
+      "dialogue_han": 179,
+      "dialogue_turns": 16,
+      "body_han": 772,
+      "runtime_proxy": {
+        "episode": 2,
+        "dialogue_han": 179,
+        "dialogue_turns": 16,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          72,
+          165
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 3,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v412_outline_to_script/EP03_raw.md",
+      "sha256": "d74666cbd44c09e40d08ff9ae22443120ddcc24b510b7b1bf791b2e22f184045",
+      "scenes": 3,
+      "dialogue_han": 150,
+      "dialogue_turns": 13,
+      "body_han": 887,
+      "runtime_proxy": {
+        "episode": 3,
+        "dialogue_han": 150,
+        "dialogue_turns": 13,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          66,
+          155
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 3
+      }
+    },
+    {
+      "code": "SCENE_DIALOGUE_TOO_SPARSE_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 3
+      }
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 2
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 2
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 2
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 2,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 2,
+      "detail": {
+        "episode": 2,
+        "dialogue_han": 179,
+        "dialogue_turns": 16,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          72,
+          165
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 3
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 3
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 3
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 3,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_DIALOGUE_TOO_SPARSE_REVIEW",
+      "episode": 3,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 3,
+      "detail": {
+        "scene": 3
+      }
+    },
+    {
+      "code": "SCENE_DIALOGUE_TOO_SPARSE_REVIEW",
+      "episode": 3,
+      "detail": {
+        "scene": 3
+      }
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 3,
+      "detail": {
+        "episode": 3,
+        "dialogue_han": 150,
+        "dialogue_turns": 13,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          66,
+          155
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      },
+      {
+        "episode": 1,
+        "scene": 3
+      },
+      {
+        "episode": 2,
+        "scene": 1
+      },
+      {
+        "episode": 3,
+        "scene": 1
+      },
+      {
+        "episode": 3,
+        "scene": 3
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [
+      {
+        "episode": 1,
+        "scene": 3
+      },
+      {
+        "episode": 2,
+        "scene": 2
+      },
+      {
+        "episode": 3,
+        "scene": 2
+      },
+      {
+        "episode": 3,
+        "scene": 3
+      }
+    ],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "他打开设备购物页，看看银行卡余额，关掉。",
+        "assessment": "箱子误用触发身份落差；压回终止关系文件、放弃买设备，现实选择完成。短场足以启动；程序员身份在正文未明示，见评估。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "他稳住竿，父亲把空抄网放到他脚边，由他自己将鱼抄起。",
+        "assessment": "失败—检查记录位置—父亲不代做—独立落鱼都有可执行行动；等待明确省略。35秒独立/停顿对多个动作仍须实际计时，不据此判通过。"
+      },
+      {
+        "episode": 1,
+        "scene": 3,
+        "decision": "unresolved",
+        "quote": "他取消，接上挪手机和小鱼入网的片段。",
+        "assessment": "保留失败、发布与转发已演出；但SC02挪手机前先回放，未明确重启录制，当前声称存在挪手机片段的来源不够可靠。不可用事后编辑动作倒证曾拍到；保留原文待修。"
+      },
+      {
+        "episode": 2,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "周姨：你这儿已经弄好了。我从哪儿开始？",
+        "assessment": "新手拿未装线组停住并退还手机，推翻讲解者假设；陈序停止插嘴，导向下一场观察。短场有独立阻力和选择。"
+      },
+      {
+        "episode": 2,
+        "scene": 2,
+        "decision": "unresolved",
+        "quote": "周姨另做一遍完整过程，陈守成只在旁守着。",
+        "assessment": "卡点和首次独立操作成立；另录完整过程被一句行动概括，缺少明确开始录制动作。示范、失败重置、完整重试、另做完整一遍、回看编辑发布压进35秒独立动作不可靠，待修/实测。"
+      },
+      {
+        "episode": 2,
+        "scene": 3,
+        "decision": "retain",
+        "quote": "六个名字各对应一笔30元收款：",
+        "assessment": "两个区、120场地与60协助、规则及预约都有具体文字和付款，跨日明确，180未冒称利润；规则阅读及核对六笔使40秒段仍有时长风险。"
+      },
+      {
+        "episode": 3,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "小方：我先不学了。别都等我。",
+        "assessment": "开场逐人试做继承上集方法；15分钟跳转暴露五人等待及慢者退出，迫使主角改变组织，不重演学不会就怪用户。"
+      },
+      {
+        "episode": 3,
+        "scene": 2,
+        "decision": "unresolved",
+        "quote": "老周收得过急，停下重来；李姐完成后把位置让给大刘，",
+        "assessment": "小方失败重置与独立抛收可演，五人实际练习有开始。后半逐人核验压成并列概述；老周重试完成结果未写，李姐完成什么含混，六勾不能代证全过程。50秒独立动作承载分组、个教、六人核验偏紧，不能宣告85秒高潮已兑现。"
+      },
+      {
+        "episode": 3,
+        "scene": 3,
+        "decision": "unresolved",
+        "quote": "陈序给老许转120元，给父亲转60元，对方各自确认收款。",
+        "assessment": "完成、六笔尾款、成本及生活费和备用金均有动作，不是只有意向；但25秒容纳收器材六人确认六次付款核对及多笔转账/信息回复，10秒独立动作预算明显缺少接口阅读余量。且末尾电脑箱无到场来源，不影响主线但道具衔接待修。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "revision_pending",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

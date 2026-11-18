@@ -1,0 +1,31 @@
+{
+  "experiment_id": "PILOT-242-HISTORICAL-AB-V245",
+  "status": "PREPARED_NOT_EXECUTED",
+  "scene_sha256": "ee159f749e4b154b84209c68c59a8112d37d6ed619255ea880bb291bd8653c70",
+  "source_type": "synthetic_frozen_scene",
+  "arms": [
+    {
+      "arm": "V2.238",
+      "source_zip_sha256": "577619892b7b6e0890119dc2ad98969df43bae1350268d77eadbe51a8c7a1ca5",
+      "source_zip_name": "tiger-v238-director.zip",
+      "output_path": "runs/v238/03-专业导演分镜.md",
+      "run_log_path": "runs/v238/run.json",
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "arm": "V2.239",
+      "source_zip_sha256": "0ba6c15c637b6b61dc22c5d506ec403848e12e3e9a5feca7efff413ccbeaec3c",
+      "source_zip_name": "tiger-v239-director.zip",
+      "output_path": "runs/v239/03-专业导演分镜.md",
+      "run_log_path": "runs/v239/run.json",
+      "execution_status": "NOT_RUN"
+    }
+  ],
+  "execution_requirements": [
+    "每组须用各自原始 ZIP 独立加载",
+    "不得提供对方输出给当前组",
+    "记录原始模型/采样设置与运行时间",
+    "原始输出文件哈希及运行日志必须可核验"
+  ],
+  "evaluation": "只有真实运行且盲审后才允许评价艺术优劣"
+}

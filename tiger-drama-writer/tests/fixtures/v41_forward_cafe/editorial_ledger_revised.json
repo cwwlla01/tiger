@@ -1,0 +1,60 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "269a2b92183e9febcfcba510333866b98e39be9be917f7fce5b64ba184d47711",
+      "mechanism": {
+        "obstacle": "老板烛光救场失败，寿星拒绝暗处鱼刺、女儿拒绝单纯打折",
+        "tactic": "老板承认限制并少收整鱼钱，女儿把手机由拍照改成照饭",
+        "outcome": "一家人完成吹烛并坐下吃面，停电仍在",
+        "quote": "老周：是我嘴硬。一根蜡烛，照不亮一桌鱼刺。您要走，我给您提蛋糕。要留下，先尝面，合口再收面钱。"
+      },
+      "outcome_kind": "relationship_shift",
+      "outcome_quote": "小敏：不拍了。妈，趁热。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "何姨：那你也坐进来。别每年照片里都少个人。",
+      "assessment": "本场有连续可演的尝试与抵抗：老板点烛被孩子吹灭；何姨拒暗处整鱼；小敏不接受便宜即解决，老板认限并划掉68元整鱼。小敏再次举手机，母亲把她邀回桌边，她改变手机用途并坐下。一个场景容纳一条完整冲突，不为场数加转场。短句服务于嘴硬救场、母亲实用拒绝、孩子抢吹等不同战术；不为平均句长加台词。结尾夹肉和邀吹是行为回报。仍有分面及蛋糕操作时长不确定，未实测，不能称已达90秒或最终拍摄版。"
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "candle",
+      "status": "resolved",
+      "setup_quote": "豆豆：我会！",
+      "resolution_quote": "何姨：一起。",
+      "assessment": "抢吹造成尴尬，何姨随后先阻止、再主动邀请，行为闭合。"
+    },
+    {
+      "id": "birthday_meal",
+      "status": "resolved",
+      "setup_quote": "小敏：妈，换一家。我订的整鱼都没上。",
+      "resolution_quote": "手机的光还亮着，头顶灯仍灭着。一家人吃面。",
+      "assessment": "不靠恢复供电，改餐有同意、有金额减项、有实际开吃。"
+    },
+    {
+      "id": "phone",
+      "status": "resolved",
+      "setup_quote": "小敏仍站着，把手机举高，对着三碗面比位置。",
+      "resolution_quote": "她关掉相机、打开手电，把手机斜靠在桌边水杯上，背面的光照向面碗，自己拉开椅子坐下。",
+      "assessment": "同一手机由拍照工具变为共享照明，女儿得以入席。"
+    }
+  ],
+  "manual_continuity": {
+    "time": "一个夜晚的一次连续进门和入席，没有跨日承诺，time_links为空。",
+    "props": "面盆先落门边餐车，盖由何姨接走放下层；蛋糕盒由小敏放桌、提起、放回，老板两次揭盖；蜡烛由蛋糕拔下放碟，再插回重燃；筷子先由老板摆碗边，何姨用一双夹肉，小敏最后取自己的一双；手机由小敏手持改为靠杯照碗。",
+    "knowledge": "停电所有人在场可见；面已备好由老板告知并揭盖，何姨才决定留下；原稿不成立的拍照既成事实已移除。",
+    "money": "只确认原单整鱼68元被划去，寿面先尝后付；没有呈现完整订单、收款、成本或利润，不能宣称回本或无损。",
+    "relationship": "小敏放弃理想照片、接受母亲与她同席的要求；何姨从挡孩子抢吹变成主动邀吹；均有页内动作。"
+  },
+  "time_links": [],
+  "reviewer_type": "same_model_source_bound_self_review",
+  "independent_readers": 0,
+  "rehearsal_records": 0,
+  "measured_duration_seconds": null
+}

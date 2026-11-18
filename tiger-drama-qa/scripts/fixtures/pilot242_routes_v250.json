@@ -1,0 +1,34 @@
+[
+  {
+    "shot": "S01",
+    "mode": "TEXT_TO_VIDEO",
+    "supported_modes": [
+      "TEXT_TO_VIDEO"
+    ],
+    "inputs": {}
+  },
+  {
+    "shot": "S02",
+    "mode": "REFERENCE_TO_VIDEO",
+    "supported_modes": [
+      "REFERENCE_TO_VIDEO"
+    ],
+    "inputs": {}
+  },
+  {
+    "shot": "S03",
+    "mode": "FIRST_FRAME_TO_VIDEO",
+    "supported_modes": [
+      "FIRST_FRAME_TO_VIDEO"
+    ],
+    "inputs": {}
+  },
+  {
+    "shot": "S04",
+    "mode": "FIRST_LAST_FRAME_TO_VIDEO",
+    "supported_modes": [
+      "FIRST_LAST_FRAME_TO_VIDEO"
+    ],
+    "inputs": {}
+  }
+]

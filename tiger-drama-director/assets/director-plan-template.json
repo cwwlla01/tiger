@@ -1,0 +1,15 @@
+{
+  "project": "",
+  "approval_status": "PENDING",
+  "source_events": [],
+  "rules": [],
+  "routes": [],
+  "recommended_route": "",
+  "visual_bible": {},
+  "shots": [],
+  "takes": [],
+  "qa": {
+    "static": "NOT_RUN",
+    "media": "NOT_RUN"
+  }
+}

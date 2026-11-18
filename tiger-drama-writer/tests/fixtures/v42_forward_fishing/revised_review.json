@@ -1,0 +1,176 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v42_forward_fishing/EP01_revised.md",
+      "sha256": "1a70713aac94f2be7c98bf96bc17dd1aaf7c591783c8f0179564ad5aa5971394",
+      "scenes": 2,
+      "dialogue_han": 212,
+      "dialogue_turns": 19,
+      "body_han": 534,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 212,
+        "dialogue_turns": 19,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          66,
+          141
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 2,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v42_forward_fishing/EP02_revised.md",
+      "sha256": "b7fcece2a7c2bf72e2ac59309ec0ca43155d209695d9d524d64bab7f8b964a95",
+      "scenes": 2,
+      "dialogue_han": 207,
+      "dialogue_turns": 19,
+      "body_han": 575,
+      "runtime_proxy": {
+        "episode": 2,
+        "dialogue_han": 207,
+        "dialogue_turns": 19,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          65,
+          139
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 3,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v42_forward_fishing/EP03_revised.md",
+      "sha256": "70ab13e703965c5a6364d55aa0d73377a91fcce006188954d73e482538f9c2b7",
+      "scenes": 2,
+      "dialogue_han": 140,
+      "dialogue_turns": 13,
+      "body_han": 643,
+      "runtime_proxy": {
+        "episode": 3,
+        "dialogue_han": 140,
+        "dialogue_turns": 13,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          52,
+          117
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "FEW_SCENES",
+      "episode": 2
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 2
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 2
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 2,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "FEW_SCENES",
+      "episode": 3
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 3
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 3
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 3
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      },
+      {
+        "episode": 2,
+        "scene": 1
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "陈序把钱压回父亲手边，抽走离婚证，收到拉链袋。",
+        "assessment": "留用：借竿的行动被父亲对工作追问打断；陈序收起离婚证并明确不拍，父亲按不借鱼的边界借竿。身份暴露改变了能拍什么，非纯背景对白；但情感停顿尚未实演。"
+      },
+      {
+        "episode": 2,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "陈福：背影也是我，别钻空子。",
+        "assessment": "留用：手机先被手、再被帽子挡住，偷换成背影也失败；陈序提出只拍手并给删除权，父亲才移帽调整画面，完成一次有代价的许可谈判。"
+      },
+      {
+        "episode": 3,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "父亲提起盒子，手机滑下来，陈序赶紧接住。",
+        "assessment": "修订后留用：主人公已独自拍，不再向父亲求代拍；借盒底座被父亲真实出钓需要阻止，菜盘也被占用，转用自己重支架并承担搬运。存在可演的手与物冲突，未添加收费教学伪代价。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

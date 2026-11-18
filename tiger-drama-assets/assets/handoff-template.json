@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "project_id": "PROJECT_ID_REQUIRED",
+  "director_source": null,
+  "asset_requirements": [],
+  "production_tasks": [],
+  "resolved_bindings": []
+}

@@ -1,0 +1,3 @@
+# Upgrade-promise audit
+
+Read a contiguous 10–15-episode span, choose one source per episode, and maintain a table for: confirmed new stat points, tested ability, observable in-scene advantage, protagonist agency, tactical/emotional payoff, cost, and future obligation. Separate actual gains from ability demonstrations and clue discoveries. When >5 consecutive episodes lack the genre-primary promise, flag an editorial concern rather than mechanically forcing a stat increase. Repair one weak **scripted** decision/action, keep the original version for comparison, and verify downstream injury and resource states. Report all unresolved gaps and UNTIMED runtime.

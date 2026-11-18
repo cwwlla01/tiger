@@ -1,0 +1,13 @@
+interface:
+  display_name: "03 专业导演分镜"
+  short_description: "戏剧洞察、观众体验与电影化分镜设计"
+  default_prompt: "请用 $tiger-drama-director 基于本集剧本和已匹配造型完成导演分镜，重要场次比较观众体验方案，普通场次直接选择。"
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

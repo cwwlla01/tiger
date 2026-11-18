@@ -1,0 +1,50 @@
+{
+  "scene_id": "PILOT-242",
+  "source_status": "WORKING_DRAFT",
+  "studio_project_id": null,
+  "approved_identity_version": null,
+  "approved_scene_slot_ids": {},
+  "shots": [
+    {
+      "shot_id": "S01",
+      "beat_id": "B1",
+      "start": "door_closed",
+      "end": "door_closed",
+      "screen_axis": "same_axis",
+      "prop": "same_closed_door",
+      "interior_visible": false,
+      "image_sha256": null
+    },
+    {
+      "shot_id": "S02",
+      "beat_id": "B2",
+      "start": "gaze_down",
+      "end": "gaze_raised",
+      "screen_axis": "same_axis",
+      "prop": "same_closed_door",
+      "interior_visible": false,
+      "image_sha256": null
+    },
+    {
+      "shot_id": "S03",
+      "beat_id": "B3",
+      "start": "hand_not_gripping",
+      "end": "hand_gripping_unturned_knob",
+      "screen_axis": "same_axis",
+      "prop": "same_unturned_knob",
+      "interior_visible": false,
+      "image_sha256": null
+    },
+    {
+      "shot_id": "S04",
+      "beat_id": "B4",
+      "start": "hand_gripping_unturned_knob",
+      "end": "hand_released_unturned_knob",
+      "screen_axis": "same_axis",
+      "prop": "same_unturned_knob",
+      "interior_visible": false,
+      "sound_stops_before_release": true,
+      "image_sha256": null
+    }
+  ]
+}

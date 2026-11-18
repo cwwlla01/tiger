@@ -1,0 +1,115 @@
+{
+  "scene_id": "PILOT-242",
+  "evidence_type": "DEMO_ONLY",
+  "source": "合成冻结剧本（仅供流程验证）",
+  "beats": [
+    {
+      "id": "B1",
+      "text": "夜间走廊，阿禾停在门前。"
+    },
+    {
+      "id": "B2",
+      "text": "门内传来一声轻响，阿禾抬眼。"
+    },
+    {
+      "id": "B3",
+      "text": "阿禾握住门把，却没有转动。"
+    },
+    {
+      "id": "B4",
+      "text": "门内声音停止，阿禾缓缓松开手。"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "A",
+      "run_type": "illustrative_draft",
+      "shots": [
+        {
+          "shot_id": "A01",
+          "beat_ids": [
+            "B1"
+          ],
+          "dramatic_function": "建立走廊空间",
+          "editorial_reason": "让门与人物的位置清楚",
+          "duration_s": 4,
+          "camera": "固定中远景",
+          "sound": "环境底噪"
+        },
+        {
+          "shot_id": "A02",
+          "beat_ids": [
+            "B2",
+            "B3"
+          ],
+          "dramatic_function": "表演连续性与犹豫",
+          "editorial_reason": "不切断抬眼到握门把的动作",
+          "duration_s": 7,
+          "camera": "固定中景",
+          "sound": "门内轻响后留白"
+        },
+        {
+          "shot_id": "A03",
+          "beat_ids": [
+            "B4"
+          ],
+          "dramatic_function": "收束情绪",
+          "editorial_reason": "保留松手这一选择",
+          "duration_s": 4,
+          "camera": "近景",
+          "sound": "声音停止"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "run_type": "illustrative_draft",
+      "shots": [
+        {
+          "shot_id": "B01",
+          "beat_ids": [
+            "B1"
+          ],
+          "dramatic_function": "空间建立",
+          "editorial_reason": "建立人物与门的位置",
+          "duration_s": 3,
+          "camera": "固定全景",
+          "sound": "环境底噪"
+        },
+        {
+          "shot_id": "B02",
+          "beat_ids": [
+            "B2"
+          ],
+          "dramatic_function": "声音触发反应",
+          "editorial_reason": "强调抬眼反应",
+          "duration_s": 3,
+          "camera": "近景",
+          "sound": "门内轻响"
+        },
+        {
+          "shot_id": "B03",
+          "beat_ids": [
+            "B3"
+          ],
+          "dramatic_function": "延迟动作",
+          "editorial_reason": "保持握住未转动的停顿",
+          "duration_s": 5,
+          "camera": "手部特写",
+          "sound": "留白"
+        },
+        {
+          "shot_id": "B04",
+          "beat_ids": [
+            "B4"
+          ],
+          "dramatic_function": "后果与选择",
+          "editorial_reason": "表现松手而非凭空揭示门内事物",
+          "duration_s": 4,
+          "camera": "中近景",
+          "sound": "声音停止"
+        }
+      ]
+    }
+  ]
+}

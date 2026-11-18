@@ -1,0 +1,12 @@
+interface:
+  display_name: "短剧制作总控"
+  short_description: "按集调度剧本、资产造型、V3导演、提示词与按需独立验收。"
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

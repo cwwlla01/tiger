@@ -1,0 +1,38 @@
+{
+  "frozen_at_utc": "2026-10-29T21:03:30.344332+00:00",
+  "creative_revision_passes": 1,
+  "second_pass_used": false,
+  "old_raw_and_evidence_unchanged": {
+    "preflight.json": true,
+    "evaluation.md": true,
+    "prewriting_new.md": true,
+    "editorial_ledger.json": true,
+    "raw_freeze.json": true,
+    "review.json": true,
+    "story_contract.json": true,
+    "diagnostic.json": true,
+    "outline_inherited.md": true,
+    "story_contract_inherited.json": true,
+    "EP01_raw.md": true,
+    "EP02_raw.md": true,
+    "EP03_raw.md": true
+  },
+  "revised_source_and_evidence": {
+    "EP01_revised.md": "a70fce613380f84a6415c5f61d835cb891fcd26b5578b2410ff987d4d984d5df",
+    "EP02_revised.md": "486fe23c3a47700c0223f9537f798b57ad67c851cfea34340b2f6d17b406f90f",
+    "EP03_revised.md": "d74dc3dc0ccf7a4f03412ca9582123f7366e538c88a926eac7f6aa13d5940823",
+    "author_revised_freeze.json": "b108c6bbabfa517a54d8fe14a418fbb091b017ea78b83c300554838abc9ab369",
+    "diagnostic_author_revised.json": "b63e4e6011e69261b01ad2a638f8899cbad0f9e073ff4d36c34af589148119c9",
+    "editorial_ledger_revised.json": "44441b4d18d5f982e49ee58f7dc968ab7a9b86394afdd57bfe60d1b9ec5c1444",
+    "evaluation_revised.md": "ac8894a8c3d71977faf91857cc21524e4d7f64b532935ceac4adc28fb08b7c00",
+    "preflight_author_revised.json": "efac348cf9a76c11d420f0ea81a7b39627aa4e25121a15b0fc95b5c4f7be0970",
+    "preflight_postdraft_estimate.json": "efac348cf9a76c11d420f0ea81a7b39627aa4e25121a15b0fc95b5c4f7be0970",
+    "repair_inputs_freeze.json": "c471d7fb7f1ce471d18e211a91df4f5ac324d79cec32492a4d058a601757bb69",
+    "repair_plan.md": "c9f81fd74b87c9034e4b4686efdefed271741ae434f09f6ff24e6a81957aba45",
+    "review_revised.json": "4237fa94acceb815695e258085eee5f79d22f02fabc7044262b602d480cd3714",
+    "story_contract_author_revised.json": "2600647b59942c45150f769f35ca2d926449980e7a41a5ce4075e0c9664e23ee",
+    "story_contract_postdraft_estimate.json": "5f6128615060903acfc5b693026ad661bc50a8cd813b4002164088255768697c"
+  },
+  "final_review_contract": "story_contract_postdraft_estimate.json",
+  "note": "Author-pass contract preserved separately; final review contract openly adjusts EP01 SC03 speech estimate after drafting. No performed evidence."
+}

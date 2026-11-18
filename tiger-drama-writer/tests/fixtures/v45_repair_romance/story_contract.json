@@ -1,0 +1,79 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户指定一集，完整跳完一支舞并完成从回避到承认仍有吸引的局部关系变化。",
+    "merge_review": "临时救场与起舞合并为SC01，舞后的自主靠近为SC02，不扩集。"
+  },
+  "literal_requirements": {
+    "urban_romance": "当代城市酒店婚礼；两位前任的吸引和迟疑为前景。",
+    "exes": "明确分手半年，不能把救场当成复合。",
+    "substitute_partner_dance": "原女搭档未到，由前任临时替补，实际完成双人舞。",
+    "relationship_change": "从只愿交差并避开触碰，变为双方主动承认心动并约一次独立见面。",
+    "preserve_source": "保留继承原稿；只交一集完整修订稿、必要变更记录及复评。"
+  },
+  "proposed_facts": "人物、姓名、分手诱因、舞步及酒店场景均为本稿创作设定：许棠与周屿分手半年，曾在狭小出租屋练舞。",
+  "audience_promise": "熟悉的身体记忆重新唤起吸引；一次允许对方选择靠近的动作，把两位前任从僵硬回避推到愿意再见一次，复合仍未定。",
+  "main_engine": "旧日搭档的默契让靠近容易，曾被擅自决定的怨意又使信任困难；必须在舞中改变旧习才能完成亲密动作。",
+  "protagonist_strategy": "许棠临时替补，限定只救场、删去过分亲密的收尾；她能记住旧舞，却不能控制心动或替周屿决定未来。",
+  "sustained_counterforce": "周屿也有吸引但害怕被误认借婚礼求复合；许棠对他习惯替她作决定保持警觉，舞曲不会等待他们谈清过去。",
+  "ending_payoff": "周屿放下原收尾的强行拉近，许棠自己走回他的手里；舞后她主动约一次咖啡，周屿询问而非代定时间。",
+  "endpoint_kind": "relationship_shift",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "许棠以临时搭档身份完成旧舞，要求删除最后贴近。",
+      "counteraction": "熟悉触碰唤起心动，周屿本能提前拉回，她停下并指出旧伤。",
+      "choice": "周屿松手让她决定最后一段；许棠自主返回，承认想跳完。",
+      "payoff": "完成由双方自愿促成的靠近，舞后由许棠主动发起一次见面。",
+      "cost": "两人放弃用救场掩饰仍在意彼此的安全距离，承担见面后仍可能不合适的风险；无额外物质损失。",
+      "mainline_change": "只愿公事公办的前任→允许心动并自愿约会一次，但未复合。",
+      "mechanism": "舞中惯性重演旧伤→松手→自主靠近→舞后主动再约。",
+      "next_trigger": "双方明确约一次咖啡；独立单集在此收束，不要求续集兑现复合。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 46,
+          "independent_action_seconds": 40,
+          "pause_seconds": 6,
+          "overlapped_action_seconds": 12
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 18,
+          "independent_action_seconds": 5,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "last_eight_counts",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "删去的收尾不被强行执行，由许棠自主选择另一种靠近。"
+    },
+    {
+      "id": "choice_not_decision",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "周屿在舞后让许棠选择见面时间，延续舞中的改变。"
+    }
+  ],
+  "revision_of": "../v44_romance_forward/story_contract.json；原计划保持不变。此文件为修订计划。",
+  "repair_boundary": {
+    "immutable": "前任在朋友婚礼临时替补双人舞；关系改变但不立即复合；一集90—150秒。",
+    "inherited": "人物、分手半年、出租屋练舞、周屿曾替许棠安排辞职去上海。",
+    "revision_proposal": "修复舞步先后、单手距离；明确更换八拍收尾的边界；去除无铺垫迟到梗。"
+  },
+  "revision_budget_note": "修订前新预算120秒；重叠动作不重复相加。舞段含无对白换步、转身、等待与八拍收尾，独立动作不可全压进对白。非实测。",
+  "work_order": "scoped continuation / targeted repair"
+}

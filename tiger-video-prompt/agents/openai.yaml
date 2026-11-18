@@ -1,0 +1,12 @@
+interface:
+  display_name: 视频生成提示词编译
+  short_description: 即梦 Seedance 2 Fast 主用、H3 备用的分镜提示词编译
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

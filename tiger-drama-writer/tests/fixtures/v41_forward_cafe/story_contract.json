@@ -1,0 +1,61 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "episode_count_reason": "用户指定一集90–150秒、独立闭合；一家人的一次进门与留店选择即可完成。",
+    "merge_review": "停电、到门、失败的烛光宴与改成家常生日席是同一连续冲突，不拆成多集或为了格式转场。"
+  },
+  "audience_promise": "让一家人从顾着把生日拍漂亮，转为坐下吃到一口热面；笑点来自老板嘴硬救场与孩子抢吹蜡烛。",
+  "main_engine": "老板拿烛光包装停电事故，母亲对暗处鱼刺的实际顾虑迫使其放弃原单，女儿也必须放下拍照。",
+  "protagonist_strategy": "餐馆老板老周先拿生日蜡烛保住整桌预订单，失败后用已做好的热面与折掉整鱼的钱换取客人真实同意；他能端菜改单，不能恢复供电或靠口才使鱼刺安全。",
+  "sustained_counterforce": "女儿小敏怕母亲六十大寿过得寒酸，护着生日蛋糕不让开盒；寿星何姨坚持看不清就不吃鱼，不接受被摆拍。",
+  "ending_payoff": "老周划掉未上的整鱼收费，女儿主动把手机留作桌灯，何姨与外孙共同吹灭唯一生日蜡烛，一家人坐下吃热面；电仍没来。",
+  "endpoint_kind": "relationship_shift",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "断电时用生日蜡烛招呼已到门口的一家人，把预订宴照常留下。",
+      "counteraction": "孩子先吹灭蜡烛，何姨拒吃暗处整鱼；女儿准备改去别处。",
+      "choice": "老周划掉整鱼收费，提供已经煮好待上的寿面；小敏把拍照手机放到桌上照面，不再要求生日像宣传图。",
+      "payoff": "何姨先给女儿夹面，寿星与孩子一起吹烛后全家开吃。",
+      "cost": "老板少收一份整鱼的钱，小敏放弃完美全桌照片；没有来电奇迹。",
+      "mainline_change": "小敏从替母亲安排一张好看的照片，变成和母亲一起把饭吃上。",
+      "mechanism": "体面的包装被具体用餐障碍拆穿，以让价和让出手机改变饭桌关系。",
+      "next_trigger": "一家人已坐下吃面、完成生日仪式，本集闭合，无续集悬念。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 80,
+          "independent_action_seconds": 34,
+          "pause_seconds": 8,
+          "overlapped_action_seconds": 12
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "candle",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "第一次被外孙抢吹的生日蜡烛，最终由寿星邀请外孙一起吹。"
+    },
+    {
+      "id": "birthday_meal",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "不靠恢复供电，客人同意改餐并真正坐下开吃。"
+    },
+    {
+      "id": "phone",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "女儿从占用手机拍照片转为把手机交给饭桌照明。"
+    }
+  ]
+}

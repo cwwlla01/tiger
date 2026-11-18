@@ -1,0 +1,69 @@
+{
+  "review_type": "source_bound_self_review_only",
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "8dcfb25eeb49c81507d8ccc6d4696c049282ea9ff1fa005d884b7859dc4178b6",
+      "mechanism": {
+        "obstacle": "队长用岗位处分阻止保安查收据",
+        "tactic": "保安佯称继续巡楼后折返，录像比对封存实物",
+        "outcome": "截住当晚封存电缆并解释外卖来源，但十点既定巡楼削弱诱饵必要性",
+        "quote": "陈默：你等我巡到楼顶，好从这儿出去？"
+      },
+      "outcome_kind": "local_mystery_solved",
+      "outcome_quote": "高队：十点是你接班后第一次巡楼。送到有人住的房间，人家会退；308封了，才没人问。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "△高队伸手拿小票。陈默先撕下来，折进掌心，把餐袋推回墙边。",
+      "assessment": "保安试拨订餐电话，队长以漏岗威胁且伸手夺票；保安保住票据佯装服从。短场有具体争物与策略变化，无须为900字提示添加解释。"
+    },
+    {
+      "episode": 1,
+      "scene": 2,
+      "decision": "unresolved",
+      "quote": "高队：十点是你接班后第一次巡楼。送到有人住的房间，人家会退；308封了，才没人问。",
+      "assessment": "Major：若十点本来就巡楼，队长无须每日买外卖来调离；既定巡楼与漏岗处分亦未分清。反证电话和电缆成立，但诱饵的因果必要性不足。本基线保留原稿，不把有答案等同于答案严密。"
+    }
+  ],
+  "manual_findings": [
+    {
+      "severity": "major",
+      "episode": 1,
+      "scene": 2,
+      "quote": "高队：十点是你接班后第一次巡楼。",
+      "assessment": "明确规律却使核心诱饵多余。应在获准修订时把十点设为常驻门岗并通过外卖投诉使其上楼，或说明外卖如何改变原路线；该建议未实施。"
+    },
+    {
+      "severity": "moderate",
+      "episode": 1,
+      "scene": 2,
+      "quote": "陈默：那两晚我离了岗，我写。今晚这车，你别推走。",
+      "assessment": "没有说明合法巡楼与违规离岗的区别，自认过失的成本欠基础。"
+    },
+    {
+      "severity": "minor",
+      "episode": 1,
+      "scene": 2,
+      "quote": "高队：你不说，前两晚也没人知道。",
+      "assessment": "可能暗示前两晚盗运；文本未给前两晚库存，不能据此证明连续三次盗窃。本集只抓到当晚一车。"
+    },
+    {
+      "severity": "timing_uncertainty",
+      "episode": 1,
+      "scene": 1,
+      "quote": "△陈默随他上三楼。",
+      "assessment": "含跨楼层移动，作者预算依靠必要时间省略；保留完整行走将延长总时长。场次把一楼/三楼合写也会低估空间转换。"
+    }
+  ],
+  "continuation_state": {
+    "time": "同一夜22:00后；前两夜送餐仅作既有事实",
+    "knowledge": "陈默获知订餐人是高队并看到当晚封存7号被运出；未证实以往盗窃次数。",
+    "props": "三袋外卖仍在308；小票由陈默持有；电缆与推车在一楼；录像与清点照片在陈默手机。",
+    "open_debts": "本集无新增怪事和续集谜钩；警方案件结果未写，不宣称已定罪。"
+  }
+}

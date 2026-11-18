@@ -1,0 +1,69 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v41_forward_cafe/EP01_revised.md",
+      "sha256": "269a2b92183e9febcfcba510333866b98e39be9be917f7fce5b64ba184d47711",
+      "scenes": 1,
+      "dialogue_han": 281,
+      "dialogue_turns": 25,
+      "body_han": 814,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 281,
+        "dialogue_turns": 25,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          68,
+          129
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "何姨：那你也坐进来。别每年照片里都少个人。",
+        "assessment": "本场有连续可演的尝试与抵抗：老板点烛被孩子吹灭；何姨拒暗处整鱼；小敏不接受便宜即解决，老板认限并划掉68元整鱼。小敏再次举手机，母亲把她邀回桌边，她改变手机用途并坐下。一个场景容纳一条完整冲突，不为场数加转场。短句服务于嘴硬救场、母亲实用拒绝、孩子抢吹等不同战术；不为平均句长加台词。结尾夹肉和邀吹是行为回报。仍有分面及蛋糕操作时长不确定，未实测，不能称已达90秒或最终拍摄版。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

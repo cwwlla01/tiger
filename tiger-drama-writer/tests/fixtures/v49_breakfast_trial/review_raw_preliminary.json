@@ -1,0 +1,81 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v49_breakfast_trial/EP01_raw.md",
+      "sha256": "4036ad3c7621e1952d99b96e2b1e3d07f9db2ece944790fc3e3137184d400e0b",
+      "scenes": 2,
+      "dialogue_han": 223,
+      "dialogue_turns": 30,
+      "body_han": 629,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 223,
+        "dialogue_turns": 30,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          69,
+          144
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SEMANTIC_LEDGER_NOT_SUPPLIED"
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      }
+    ],
+    "unreviewed_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      }
+    ],
+    "pending_revision_scenes": [],
+    "decisions": [],
+    "coverage_complete": false,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "awaiting_scene_review",
+  "semantic_annotations_state": "unassessed",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

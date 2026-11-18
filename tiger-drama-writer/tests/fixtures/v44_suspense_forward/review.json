@@ -1,0 +1,92 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v44_suspense_forward/EP01.md",
+      "sha256": "e39ed5a7319cd997d3fa9ff5944fe151b133e7c20259156b25ab8a0248b08543",
+      "scenes": 2,
+      "dialogue_han": 153,
+      "dialogue_turns": 15,
+      "body_han": 644,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 153,
+        "dialogue_turns": 15,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          55,
+          121
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "周宁抬头。207的挂钩空了。他压住完好的纸封，手指发抖，撕封、开锁。",
+        "assessment": "短场有封锁试验、钥匙返入的反证和黑漆新线索，足以转入追查；保留原稿。需注意哥哥第一次取钥匙未写出掩护动作，不能仅凭短文本数值认定充分；具体局限详评估。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "他将207重新投进旧还匙口。清楚的一声落响。",
+        "assessment": "主动追痕、伪离开、截手和复现组成完整局部解答；收签名页显示拒售的当前选择。作者自评而非独立鉴定。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

@@ -1,0 +1,94 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v41_forward_cafe/EP01_raw.md",
+      "sha256": "69ddedbef60b249dd3317bfa7cd400ee46dfb5bb69e9bd6619cf554a239f1cd0",
+      "scenes": 1,
+      "dialogue_han": 160,
+      "dialogue_turns": 17,
+      "body_han": 596,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 160,
+        "dialogue_turns": 17,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          44,
+          88
+        ],
+        "target_90_150s": "OUTSIDE_PROXY_RANGE_REVIEW",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "RUNTIME_PROXY_BELOW_TARGET_REVIEW",
+      "episode": 1,
+      "detail": {
+        "episode": 1,
+        "dialogue_han": 160,
+        "dialogue_turns": 17,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          44,
+          88
+        ],
+        "target_90_150s": "OUTSIDE_PROXY_RANGE_REVIEW",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      }
+    ],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "rewrite",
+        "quote": "何姨：我吃过六十年饭，就你这碗最难等。拍了半天，筷子还没拿。",
+        "assessment": "何姨的“拍了半天”先于本场实际拍照行为；改成在小敏举手机之后针对她的动作说话。补足小敏对改餐的实际顾虑与老板回应，手机支放、服务动作也明确化。时长代理偏短仅为复核线索，不以补字作为修订目的。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "revision_pending",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

@@ -1,0 +1,50 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户指定一集，录音矛盾在本集以复现解开。",
+    "merge_review": "质证、失败测试与声源验证保留在一个连续场景，避免转场拖时。"
+  },
+  "audience_promise": "用观众能听见的重复细节与现场验证，解开录音为何不能证明老板在店。",
+  "main_engine": "声音身份与人在场被错误等同；同事坚持原始录音迫使验证声源。",
+  "protagonist_strategy": "林岚先冻结现场并让周原播放完整关键段，再暂停手机、启动已指出的播放器验证声源；不鉴定原件真伪或老板行程。",
+  "ending_payoff": "老板及时说明播放器；通过原件重复细节与手机暂停后的现场重放交叉验证，撤回声音等同在场的断言。",
+  "endpoint_kind": "local_mystery_solution",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "林岚要求先听完周原的原录音，再动老板已指出的播放器。",
+      "counteraction": "老板主动解释循环录音，周原以设备现在能播不能证明昨晚为由拒绝直接撤回断言。",
+      "choice": "林岚从原件两段相同勺声提出循环假设，暂停手机并启动设备，要求周原另换问题测试。",
+      "payoff": "设备仍播固定句和相同勺声，不回答新问题；拔插头后声止，周原在群中纠正在场断言。",
+      "cost": "老板撤掉自己的装人在店装置；周原公开收回过度推断；无额外财物损失。",
+      "mainline_change": "从在场指控转为接受录音声源解释；老板昨夜行程仍未独立核实。",
+      "mechanism": "提前提出解释—质疑证据范围—完整原件重复线索—可复现验证。",
+      "next_trigger": "本集声音谜题关闭，后门交由当事人立即检查，无新案。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 79,
+          "independent_action_seconds": 30,
+          "pause_seconds": 12,
+          "overlapped_action_seconds": 13
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "voice",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "解释老板声音为何在空店响，并区分声音出现和人在场。"
+    }
+  ],
+  "repair_basis": "继承v46原稿与计划；修订一集，不重选故事引擎。原件保持不变。"
+}

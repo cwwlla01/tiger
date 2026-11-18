@@ -1,0 +1,105 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "588b2aa2d588cc47d0f38863752a45bba5fe47ac4ac4bb961678bfc8237d9a11",
+      "mechanism": {
+        "obstacle": "记录失败且不愿公开",
+        "tactic": "调整记录位置并保留失败发布",
+        "outcome": "真实首条内容发布",
+        "quote": "他确认画面能看清过程，点“发布”。"
+      },
+      "outcome_kind": "content_launch",
+      "outcome_quote": "页面出现已发布的视频。没有收益数字。"
+    },
+    {
+      "number": 2,
+      "sha256": "de1efc65ed777bbbf6057d46ccc71df60ef98ca844d61a7f65072d9b0dcec979",
+      "mechanism": {
+        "obstacle": "教程漏准备导致新手无法复现",
+        "tactic": "观察具体卡点后补准备重录并落实服务规则",
+        "outcome": "六人各付预约金形成交付义务",
+        "quote": "周姨放下竿，重新理顺线组，接好，"
+      },
+      "outcome_kind": "paid_booking_obligation",
+      "outcome_quote": "六个名字各对应一笔30元收款："
+    },
+    {
+      "number": 3,
+      "sha256": "d74666cbd44c09e40d08ff9ae22443120ddcc24b510b7b1bf791b2e22f184045",
+      "mechanism": {
+        "obstacle": "六人速度不同使统一等待吞噬付费练习",
+        "tactic": "已订两区分组陪练并逐人核验",
+        "outcome": "服务结束结清收支归本人安排",
+        "quote": "是我排错了。爸，带这五位去旁边练。"
+      },
+      "outcome_kind": "audience_business_first_transaction",
+      "outcome_quote": "记账页剩414元。他再向父亲转200元，"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "他打开设备购物页，看看银行卡余额，关掉。",
+      "assessment": "箱子误用触发身份落差；压回终止关系文件、放弃买设备，现实选择完成。短场足以启动；程序员身份在正文未明示，见评估。"
+    },
+    {
+      "episode": 1,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "他稳住竿，父亲把空抄网放到他脚边，由他自己将鱼抄起。",
+      "assessment": "失败—检查记录位置—父亲不代做—独立落鱼都有可执行行动；等待明确省略。35秒独立/停顿对多个动作仍须实际计时，不据此判通过。"
+    },
+    {
+      "episode": 1,
+      "scene": 3,
+      "decision": "unresolved",
+      "quote": "他取消，接上挪手机和小鱼入网的片段。",
+      "assessment": "保留失败、发布与转发已演出；但SC02挪手机前先回放，未明确重启录制，当前声称存在挪手机片段的来源不够可靠。不可用事后编辑动作倒证曾拍到；保留原文待修。"
+    },
+    {
+      "episode": 2,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "周姨：你这儿已经弄好了。我从哪儿开始？",
+      "assessment": "新手拿未装线组停住并退还手机，推翻讲解者假设；陈序停止插嘴，导向下一场观察。短场有独立阻力和选择。"
+    },
+    {
+      "episode": 2,
+      "scene": 2,
+      "decision": "unresolved",
+      "quote": "周姨另做一遍完整过程，陈守成只在旁守着。",
+      "assessment": "卡点和首次独立操作成立；另录完整过程被一句行动概括，缺少明确开始录制动作。示范、失败重置、完整重试、另做完整一遍、回看编辑发布压进35秒独立动作不可靠，待修/实测。"
+    },
+    {
+      "episode": 2,
+      "scene": 3,
+      "decision": "retain",
+      "quote": "六个名字各对应一笔30元收款：",
+      "assessment": "两个区、120场地与60协助、规则及预约都有具体文字和付款，跨日明确，180未冒称利润；规则阅读及核对六笔使40秒段仍有时长风险。"
+    },
+    {
+      "episode": 3,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "小方：我先不学了。别都等我。",
+      "assessment": "开场逐人试做继承上集方法；15分钟跳转暴露五人等待及慢者退出，迫使主角改变组织，不重演学不会就怪用户。"
+    },
+    {
+      "episode": 3,
+      "scene": 2,
+      "decision": "unresolved",
+      "quote": "老周收得过急，停下重来；李姐完成后把位置让给大刘，",
+      "assessment": "小方失败重置与独立抛收可演，五人实际练习有开始。后半逐人核验压成并列概述；老周重试完成结果未写，李姐完成什么含混，六勾不能代证全过程。50秒独立动作承载分组、个教、六人核验偏紧，不能宣告85秒高潮已兑现。"
+    },
+    {
+      "episode": 3,
+      "scene": 3,
+      "decision": "unresolved",
+      "quote": "陈序给老许转120元，给父亲转60元，对方各自确认收款。",
+      "assessment": "完成、六笔尾款、成本及生活费和备用金均有动作，不是只有意向；但25秒容纳收器材六人确认六次付款核对及多笔转账/信息回复，10秒独立动作预算明显缺少接口阅读余量。且末尾电脑箱无到场来源，不影响主线但道具衔接待修。"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "6b90f486916351c916aeeb285e4d11428945d8bc4a9043c389232a4cca72f882",
+      "day": 1,
+      "day_quote": "返乡第1日",
+      "mechanism": {
+        "obstacle": "镜头分走注意力并导致线缠架",
+        "tactic": "放稳竿、解线，放弃脸部表演",
+        "outcome": "完成近水投送并保留失败",
+        "quote": "周序：这次别拍脸，拍我的手。"
+      },
+      "outcome_kind": "raw_material",
+      "outcome_quote": "他把这两段点进“第一条素材”，没删。"
+    },
+    {
+      "number": 2,
+      "sha256": "34e0e24e2a7993d201645346bda7e3f5602f656bbec115d68f37a2513632ae38",
+      "day": 1,
+      "day_quote": "返乡第1日",
+      "mechanism": {
+        "obstacle": "风噪导致解释听不清",
+        "tactic": "逐项试播后转成可看懂的图注",
+        "outcome": "首条完成公开发布",
+        "quote": "周序：不用了。我先让人看懂。"
+      },
+      "outcome_kind": "content_launch",
+      "outcome_quote": "上传进度走完，页面出现“发布成功”。"
+    },
+    {
+      "number": 3,
+      "sha256": "6d10bd7e357c45ab611b2ad61ccb2bfe1df7b0b0882346b85eb78cc74dbf915c",
+      "day": 2,
+      "day_quote": "返乡第2日",
+      "mechanism": {
+        "obstacle": "漂太小且扬竿手出框",
+        "tactic": "设定固定拍摄范围后自己看漂",
+        "outcome": "真实中鱼并保留空竿对照",
+        "quote": "周序：脸先下班。留漂和手。"
+      },
+      "outcome_kind": "fishing_skill_and_material",
+      "outcome_quote": "一尾小鱼在网底跳。"
+    },
+    {
+      "number": 4,
+      "sha256": "322e88b6b6ca79ba84d2c22c3e4e9216f1d7ab253c3b4eb36d2726f49a9d25a0",
+      "day": 2,
+      "day_quote": "返乡第2日",
+      "mechanism": {
+        "obstacle": "加速遮掉关键变化且父亲不肯日常陪拍",
+        "tactic": "恢复原速、收窄结论并协商帮助次数",
+        "outcome": "第二条公开发布与有限协作成立",
+        "quote": "老周：我今天钓了半上午，你拍了半上午。我也想有整上午。"
+      },
+      "outcome_kind": "content_launch",
+      "outcome_quote": "两条视频都能播放。"
+    }
+  ],
+  "time_links": [
+    {
+      "source_episode": 2,
+      "target_episode": 3,
+      "offset_days": 1,
+      "quote": "明天试这个。您不用举手机。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "老周：那你把河关了，演示吧。",
+      "assessment": "想录体面开场，被真实钩位打断，停录后改为看手；笑点来自演示心态与钓鱼要求冲突，并非单纯交代背景。"
+    },
+    {
+      "episode": 1,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "周序：这次别拍脸，拍我的手。",
+      "assessment": "缠架后父亲先扶正并守住支架，持续录像；周序松开扶架手后放稳竿、退线，解线片段确实可见。随后改为手部记录并完成近水投送，跨集首条素材有画面来源。"
+    },
+    {
+      "episode": 2,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "周序：不用了。我先让人看懂。",
+      "assessment": "外放排除音量问题后风噪仍在，手机被拿回促使改为旧手机上处理视觉信息；不是父亲万能修复。"
+    },
+    {
+      "episode": 2,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "现在谁点开，都能看见我不会。",
+      "assessment": "删自述、画线圈、保留解线与回头原声，再实际发布并从主页复看；零播放明确限定结果，不以父亲夸赞代替发布。"
+    },
+    {
+      "episode": 3,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "周序：脸先下班。留漂和手。",
+      "assessment": "先试拍才发现漂小、手出框，退脸换信息；不是再演一遍拒绝造假。"
+    },
+    {
+      "episode": 3,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "他把空竿和中鱼两段标为“第二条”",
+      "assessment": "两次坐下提竿验证画面边界后，自己等漂并提竿入网，父亲递网与摘钩是协作；固定机位缺失抄鱼成为下集的诚实内容限制。"
+    },
+    {
+      "episode": 4,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "老周：你让我看漂，又不让我看。",
+      "assessment": "父亲无法辨别快放两次差异，周序恢复原速并把绝对教学缩为两次记录；末尾空椅形成由固定机位导致的笑点。"
+    },
+    {
+      "episode": 4,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "周序：行，不包月，不续播。",
+      "assessment": "第二次实际发布后主人公企图扩张父亲劳动，父亲拒绝，他删除日更承诺并洗碗、准备独立试录；家庭关系通过实际边界变化落地。"
+    }
+  ]
+}

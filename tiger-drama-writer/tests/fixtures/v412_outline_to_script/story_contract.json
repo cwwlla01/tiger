@@ -1,0 +1,142 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "三集为本轮内部测试参数，非真实用户历史要求；本轮修订保留三集，分别承担发布、试学与预约、集体付费服务兑现。",
+    "merge_review": "保留三段资源递进；将场地、协助、付费规则前置EP02，删除EP03退款重入、补录发布和钓获惊喜，不再堆叠竞争性转折。"
+  },
+  "audience_promise": "真实钓鱼内容带来首次六人付费活动，兑现90分钟教学陪练，获得414元结余及下一次工作主动权。",
+  "main_engine": "个人流程可复现与不同学习速度的集体服务之间的冲突。",
+  "protagonist_strategy": "先让用户独立复现；当六人的时间冲突时，用已落实的两区和协助分工组织并行练习。",
+  "ending_payoff": "六人完成约定活动并结清594元，付清180元成本，净余414元；200元生活费及214元备用金由陈序自行安排。",
+  "endpoint_kind": "audience_business_first_transaction",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "拍一条能证明自己重新开工的钓鱼视频",
+      "counteraction": "钓鱼与手机记录均失败",
+      "choice": "保留失败，调整手机位置，重新完成钓鱼尝试",
+      "payoff": "独立钓到小鱼并发布有完整过程的首条内容",
+      "cost": "无额外损失；尚无外部反馈或收入",
+      "mainline_change": "从隐藏失败到真实发布",
+      "mechanism": "失败后改变拍摄和表达方式",
+      "next_trigger": "父亲经同意转发到县城钓友群",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 17,
+          "independent_action_seconds": 15,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 24,
+          "independent_action_seconds": 31,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 10,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "attempt": "让第一位试学者照视频完成操作",
+      "counteraction": "视频漏步骤，新手无法复现",
+      "choice": "观察试学卡点、补全准备步骤，另录发布后落实90分钟六人教学陪练的场地协助和支付规则",
+      "payoff": "周姨独立抛竿；重做版带来六人各30元预约金，形成明确交付义务",
+      "cost": "形成一次必须按约兑现的付费义务，预约金不是利润",
+      "mainline_change": "从发布内容到获得有来源的付费需求",
+      "mechanism": "用户复现失败引发教程改写及预约",
+      "next_trigger": "一周后六人到场，各自学习速度不同",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 16,
+          "independent_action_seconds": 16,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 25,
+          "independent_action_seconds": 35,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 6
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 22,
+          "independent_action_seconds": 15,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "attempt": "兑现六人90分钟基础教学陪练；开场即逐人核验",
+      "counteraction": "五人已可练习，小方需要更慢的步骤；统一等待挤占其他人的付费练习时间",
+      "choice": "放弃统一进度，用已落实的两区及父亲协助并行陪练，自己补教小方并最终核验各人独立操作",
+      "payoff": "完成约定活动，六人各付69元尾款；总实收594元，成本180元，结余414元",
+      "cost": "统一进度被放弃，陈序必须持续个别辅导与组织；无退款重入或额外牺牲",
+      "mainline_change": "从一对一可用的教程和预约，进到适应多人差异的实际有偿交付",
+      "mechanism": "集体时间冲突迫使已学会逐人复现的陈序改变服务组织方式",
+      "next_trigger": "首笔结余分为200元生活费及214元备用；自己确定后续服务边界，长期谋生仍开放，不追加悬念",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 16,
+          "independent_action_seconds": 11,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 28,
+          "independent_action_seconds": 50,
+          "pause_seconds": 7,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 10,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "real_content",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "真实尝试及完整过程发布"
+    },
+    {
+      "id": "user_reproducibility",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "开场继承逐人复现，在集体时间冲突下改分组，核验各人的独立操作"
+    },
+    {
+      "id": "paid_delivery",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "完成明示90分钟教学陪练，六人确认并付尾款，结清成本后414元归陈序支配"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "retrospective",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 2,
+    "episode_count_reason": "用户指定两集；首集从礼盒推销转向按支成交，次集承接散卖后的余货与包装成本，完成第一次营业。",
+    "merge_review": "开摊、遇客及首单不拆成独立集；两集分别处理购买单位与包装承诺。"
+  },
+  "literal_requirements": [
+    {
+      "requirement": "两集，每集90–150秒，现实轻喜剧",
+      "evidence_plan": "两集完整可演场景，预算各120秒，喜剧源自导购话术与乡镇实际需求冲突。"
+    },
+    {
+      "requirement": "下岗的商场导购回老家摆摊卖花，开始第一次营业",
+      "evidence_plan": "返乡旧工牌与裁撤短信作因果背景；现场选花、报价、包花、收款，结尾只完成首日开张，不宣称盈利。"
+    }
+  ],
+  "proposed_facts": "人物、乡镇、花价及进货金额均为创作设定；同一天早市，花摊在母亲的菜摊边。",
+  "audience_promise": "看一个习惯整套推销的导购，在熟人早市里被具体需求顶住，再用会观察人、会搭配的手艺挣到第一笔真花钱；尴尬里有体面。",
+  "main_engine": "商场成套服务习惯撞上早市按需购买；每次改法都留下下一道实际经营题。",
+  "protagonist_strategy": "林晓先坚持成束展示，受阻后按用途拆束，再按客户预算分级服务。",
+  "protagonist_limitation": "会询问需求和搭配包装，但不能凭话术创造消费预算，也不能把免费材料和母亲劳动当成零成本。",
+  "sustained_counterforce": "买菜的何婶要便宜便携；修车的周师傅要当天能带走、价格说清，两人均可放下花离开；母亲护着菜摊秩序与自己的时间。",
+  "ending_payoff": "两单收入20元，现场开张；保留余货，整批进货和包装成本尚未收回，林晓给包装明码标价。",
+  "endpoint_kind": "first_business_transactions",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "用二十元礼束完成首单。",
+      "counteraction": "何婶只要两支，且手里菜袋塞不进礼束。",
+      "choice": "拆掉唯一扎好的样束，按支卖并做能挂菜袋的简包。",
+      "payoff": "何婶付六元，花随菜袋带走。",
+      "cost": "失去完整样束，散卖余花与每单包装用量成为新问题。",
+      "mainline_change": "零成交变为第一笔六元收入；散卖规则已承诺。",
+      "mechanism": "购买单位协商与使用场景改造。",
+      "next_trigger": "周师傅拿着十元要把剩下的花全包成礼物，引用免费包装承诺。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 72,
+          "independent_action_seconds": 35,
+          "pause_seconds": 13,
+          "overlapped_action_seconds": 14
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "attempt": "接住低价散卖后的礼物包装需求。",
+      "counteraction": "周师傅以十元预算要求三支花和硬盒，母亲收回要用来垫菜的盒。",
+      "choice": "说清花与包装各自价格，提供纸包与硬盒两种方案，允许买家离开比较。",
+      "payoff": "周师傅加四元买三支花及纸包；现场付十四元。",
+      "cost": "放弃八元硬盒加价的机会，保留送货与档次承诺边界；整批成本未收回。",
+      "mainline_change": "累计收入20元，余花继续售卖，包装服务写上牌。",
+      "mechanism": "预算下的服务范围谈判。",
+      "next_trigger": "第一次营业继续，已结清两单；不另设续集悬念。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 76,
+          "independent_action_seconds": 32,
+          "pause_seconds": 12,
+          "overlapped_action_seconds": 16
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "first_sale",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "顾客真正付钱带走花"
+    },
+    {
+      "id": "free_wrap",
+      "setup_episode": 1,
+      "due_episode": 2,
+      "promised_result": "免费包装承诺的材料与服务边界被当面处理"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户指定一集；一次早餐交易完成从躲避到面对的转折。",
+    "merge_review": "摆摊开张与认出旧客户合为第一场；下单、失败、调整和成交留在第二场，不扩展返乡过程。"
+  },
+  "audience_promise": "曾被客户电话困住的客服，在面对面卖早餐时用可执行的边界完成一单；靠旧话术失灵与回扣产生现实轻喜剧。",
+  "main_engine": "越想照客服流程赶快送走难缠客户，越把一份早餐变成长通话。",
+  "protagonist_strategy": "先遮脸躲认、用标准话术结束交易，失败后改为明确选项并现场确认。",
+  "ending_payoff": "客户接受简单早餐并付清款，主角不再追加无止境的服务问句。",
+  "endpoint_kind": "bounded_transaction_and_relationship_shift",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "第一天顺利开张，认出旧客户后想快速完成他的订单。",
+      "counteraction": "客户逐项追加要求；客服式客套又打开追加口子，第一张饼因此被抹了客户不要的辣酱。",
+      "choice": "承认做错，重做前让客户一次确认能提供的选项，最后明确结束本单。",
+      "payoff": "重做早餐交付、被接受并收到六元，双方用旧话术互相调侃。",
+      "cost": "第一张抹辣酱的饼留给自己，付出重做食材和时间；并未证明盈利。",
+      "mainline_change": "从听见熟悉声音就躲避，变成敢当面确认与结束一单。",
+      "mechanism": "职业惯性造成具体失误，明确选项改变交易。",
+      "next_trigger": "早餐摊继续营业，旧客户拿着早餐离开；独立结尾，无续集钩子。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 24,
+          "independent_action_seconds": 9,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 62,
+          "independent_action_seconds": 24,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 16
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "old_voice",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "旧客户身份被主角和客户明确认出，旧话术产生后果并回扣。"
+    },
+    {
+      "id": "breakfast_order",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "早餐实际制作、交付、接受和付款，限于一单。"
+    }
+  ]
+}

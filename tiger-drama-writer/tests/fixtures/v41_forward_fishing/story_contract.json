@@ -1,0 +1,72 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "用户要最短可闭环，主线定为失业离婚后回乡、放弃假成绩并真正开启钓鱼账号；一集内一次父子交锋与一次发布选择足以成立，不承诺创业盈利。",
+    "merge_review": "不把失业、离婚、返乡各拆一集；作为已发生事实进入首场；借鱼拍摄、拒绝造假与第一次发布由同一条鱼和一部手机串联，两场在一集结清。"
+  },
+  "audience_promise": "一个把生活当交付验收的失业程序员，在父亲的饭桌压力下交出真实的零成绩，获得能继续住下、开始做事的轻喜剧落点。",
+  "main_engine": "程序员急着给出漂亮结果，父亲坚持鱼要进锅、儿子要说实话，两人的实用主义相互拆台。",
+  "protagonist_strategy": "先借父亲买来的鱼冒充鱼获；被阻止后沿用复现问题的职业习惯，把空军和低成本拍摄失误做成第一条真实视频；代码经验不能变出鱼获或流量。",
+  "ending_payoff": "亲手发布标明空军和失业返乡的第一条钓鱼视频；父亲认领第一个赞但不提供假观众，约好吃完饭再研究明天，收入与播放均无保证。",
+  "endpoint_kind": "honest_channel_launch",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "proposed_facts": [
+    "主人公周野32岁，程序员，裁员且已离婚，无孩子情节。",
+    "父亲周大成经营自己的日常饭桌，不是网络或钓鱼权威；有普通养殖塘许可垂钓区。",
+    "同日回家后去塘边试拍，晚饭回家发布；不复婚、不暴富。"
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "周野要借父亲买的鲫鱼完成返乡钓鱼博主开场，遮掩失败感。",
+      "counteraction": "父亲按住装鱼袋，坚持这是花钱买的晚饭，拒绝儿子说成钓来的。",
+      "choice": "周野放下鱼，去允许垂钓的塘边拍真实失败，回家把空军留在成片中并标清。",
+      "payoff": "首条视频发布成功，父亲当面点出第一个赞是自己，然后把饭递给儿子。",
+      "cost": "放弃漂亮鱼获，公开失业与零鱼获；花去下午但没有收入，晚饭鱼仍是父亲买的。",
+      "mainline_change": "从想以假鱼获证明返乡有成绩，变成自己承担真实发布的新人。",
+      "mechanism": "一条买来的鱼引发真实性争夺，最终把不体面的首次尝试变成可发布作品。",
+      "next_trigger": "账号已启动，父子能同桌吃饭；这是闭环终点，无续集悬念。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 34,
+          "independent_action_seconds": 16,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 42,
+          "independent_action_seconds": 27,
+          "pause_seconds": 7,
+          "overlapped_action_seconds": 10
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "fish",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "鱼仍用于晚饭，不成为虚假鱼获。"
+    },
+    {
+      "id": "launch",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "第一条真实钓鱼视频公开发布。"
+    },
+    {
+      "id": "home",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "父亲知道失业与离婚并以饭桌行动接纳，不以复婚解决。"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "retrospective",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 3,
+    "episode_count_reason": "用户要求三集；三集分别解决真实发布、拍摄边界、陌生观众使用反馈。",
+    "merge_review": "每集准备和执行各并入连续冲突；第三集继承第二集观众问题与父亲限定。"
+  },
+  "audience_promise": "成年人返乡失意中，由父子各守边界的错位生出笑声，靠一次次可见的小行动重新开工。",
+  "main_engine": "程序员习惯控制结果，父亲只肯提供有边界的帮助。",
+  "protagonist_strategy": "把失误留下，逐项试拍并对照真实观看需求；编程工作经历提供测试习惯，不提供钓技或流量。",
+  "ending_payoff": "发布三条真实钓鱼内容，完成一次陌生观众问题回应，父亲保住休闲，账号尚无收入。",
+  "endpoint_kind": "audience_launch",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "拍返乡钓鱼第一条视频",
+      "counteraction": "父亲不让借他的鱼冒充首钓",
+      "choice": "保留挂草失败，承认新手",
+      "payoff": "发出第一条原创视频",
+      "cost": "公开失业且当天没钓到鱼",
+      "mainline_change": "从躲着拍到真实发布",
+      "mechanism": "实物失败引起身份暴露",
+      "next_trigger": "第二日拍一条有用的内容",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 17,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 35,
+          "independent_action_seconds": 20,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "attempt": "拍父亲的钓鱼示范",
+      "counteraction": "父亲拒绝出脸和成为免费主持",
+      "choice": "改拍双手，自己配音并接受父亲限定一次",
+      "payoff": "发布有实际示范的第二条视频，收到陌生新手问题",
+      "cost": "剪去最热闹的父亲段子，增加配音劳动",
+      "mainline_change": "从自我倾诉到接到真实观看问题",
+      "mechanism": "隐私边界改变作品形式",
+      "next_trigger": "第三日回应看不清浮漂的问题",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 17,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 35,
+          "independent_action_seconds": 20,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "attempt": "做浮漂入水示范回应问题",
+      "counteraction": "父亲约了老友，拒绝继续代拍",
+      "choice": "固定手机，自己下水测试画面并反复挪近",
+      "payoff": "发布清楚的对比，陌生提问者确认看清",
+      "cost": "放弃约人收费教学的念头，承认仍在练习",
+      "mainline_change": "账号开始形成持续创作行为而未盈利",
+      "mechanism": "可用性测试和资源约束",
+      "next_trigger": "三集完结，后续增长与就业仍开放",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 42,
+          "independent_action_seconds": 17,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 8
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 35,
+          "independent_action_seconds": 20,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "launch",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "实际发布而非仅决定"
+    },
+    {
+      "id": "privacy",
+      "setup_episode": 2,
+      "due_episode": 2,
+      "promised_result": "最终作品不含父亲正脸"
+    },
+    {
+      "id": "viewer_question",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "新作品回应看不清浮漂"
+    }
+  ]
+}

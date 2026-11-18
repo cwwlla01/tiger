@@ -1,0 +1,51 @@
+{
+  "scene_id": "PILOT-242",
+  "evidence_type": "WORKING_DRAFT_REVIEW",
+  "historical_independent_runs": false,
+  "source_sha256": "2b90925d0616daad400e92c8b3480fc8dcb487cffcf65011a631cac95428f09b",
+  "draft_sha256": "1101ce462b749ba474dc370cdf2a549db31323d161d478647367b7c91130c444",
+  "shots": [
+    {
+      "shot_id": "S01",
+      "beat_ids": [
+        "B1"
+      ],
+      "duration_s": 4,
+      "axis": "same",
+      "action": "establish"
+    },
+    {
+      "shot_id": "S02",
+      "beat_ids": [
+        "B2"
+      ],
+      "duration_s": 3,
+      "axis": "same",
+      "action": "react"
+    },
+    {
+      "shot_id": "S03",
+      "beat_ids": [
+        "B3"
+      ],
+      "duration_s": 5,
+      "axis": "same",
+      "action": "hold"
+    },
+    {
+      "shot_id": "S04",
+      "beat_ids": [
+        "B4"
+      ],
+      "duration_s": 4,
+      "axis": "same",
+      "action": "release_after_stop"
+    }
+  ],
+  "review_findings": [
+    "S02_CUT_AMBIGUITY",
+    "S03_UNNECESSARY_MOVE",
+    "S04_AUDIO_ACTION_ORDER",
+    "S03_S04_HAND_CONTINUITY"
+  ]
+}

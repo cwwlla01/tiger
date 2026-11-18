@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-29T20:55:58.075663+00:00",
+  "order": "Inherited sources copied, new scene plan recorded, preflight, all three raw episodes authored, then this freeze; no screenplay review yet.",
+  "raw_revision_count": 0,
+  "episode_count_basis": "three episodes internal test parameter; not historical user count",
+  "files": {
+    "outline_inherited.md": "9eafd67b23df0752fe3ab1a7bb88069d1f81371872b9e6485d6096a5eb926427",
+    "story_contract_inherited.json": "d51ec6bd7d86ba40bb079042228aa0de51eb12448832a801ef75c11cfafc3f7e",
+    "story_contract.json": "d51ec6bd7d86ba40bb079042228aa0de51eb12448832a801ef75c11cfafc3f7e",
+    "prewriting_new.md": "8a2f407e25471e988a15c521020e7bd7408eb164a378ae44e683dcb534fb5b58",
+    "EP01_raw.md": "588b2aa2d588cc47d0f38863752a45bba5fe47ac4ac4bb961678bfc8237d9a11",
+    "EP02_raw.md": "de1efc65ed777bbbf6057d46ccc71df60ef98ca844d61a7f65072d9b0dcec979",
+    "EP03_raw.md": "d74666cbd44c09e40d08ff9ae22443120ddcc24b510b7b1bf791b2e22f184045"
+  }
+}

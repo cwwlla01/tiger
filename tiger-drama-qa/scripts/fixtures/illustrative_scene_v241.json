@@ -1,0 +1,11 @@
+{
+  "mode": "demo",
+  "scene_id": "DEMO-S1",
+  "frozen_beats": [
+    "脚步停住",
+    "画外敲门声",
+    "人物望向门",
+    "门把手轻微转动"
+  ],
+  "note": "Illustrative source-beat fixture only; not a real V2.38/V2.39 comparison"
+}

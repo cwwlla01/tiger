@@ -1,0 +1,85 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v44_romance_forward/EP01_raw.md",
+      "sha256": "e7f3ed95b4e8011e07d8f203405b5f351c1d356df73a4399b3b9fea4c0e88103",
+      "scenes": 2,
+      "dialogue_han": 172,
+      "dialogue_turns": 23,
+      "body_han": 814,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 172,
+        "dialogue_turns": 23,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          58,
+          127
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 2
+      }
+    },
+    {
+      "code": "SEMANTIC_LEDGER_NOT_SUPPLIED"
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 2
+      }
+    ],
+    "unreviewed_scenes": [
+      {
+        "episode": 1,
+        "scene": 2
+      }
+    ],
+    "pending_revision_scenes": [],
+    "decisions": [],
+    "coverage_complete": false,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "awaiting_scene_review",
+  "semantic_annotations_state": "unassessed",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

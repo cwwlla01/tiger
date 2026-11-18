@@ -1,0 +1,97 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v44_romance_forward/EP01_raw.md",
+      "sha256": "e7f3ed95b4e8011e07d8f203405b5f351c1d356df73a4399b3b9fea4c0e88103",
+      "scenes": 2,
+      "dialogue_han": 172,
+      "dialogue_turns": 23,
+      "body_han": 814,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 172,
+        "dialogue_turns": 23,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          58,
+          127
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 2
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 2
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      }
+    ],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "unresolved",
+        "quote": "许棠先动，周屿慢了半步，两人鞋尖相碰。",
+        "assessment": "跳舞不是关系讨论的布景：碰鞋、旧玩笑、被凝视后停拍、惯性拉近和抵肩，连续改变双方距离；最后许棠亲自走回，动作兑现主动亲近。尚不能证明过去的控制问题已长期改变。 但“许棠先动，周屿慢了半步”之后又写“周屿放慢脚步，让她跟上”，客观动作因果矛盾尚未解决；本次要求只评估保留原稿，不能标为已修复。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "许棠轻轻捏住他的袖口。",
+        "assessment": "短场不是交代咖啡安排：许棠先排除复合解释，周屿尊重后准备离开，她承担主动暴露心意的风险拉住袖口，获得明确应约；以询问时间继承舞中学会等待的行为，关系变化完成。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "revision_pending",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

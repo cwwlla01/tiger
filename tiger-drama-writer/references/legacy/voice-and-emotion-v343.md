@@ -1,0 +1,7 @@
+# V3.43 Voice and emotional payoff acceptance
+
+1. On each new five-episode batch, preserve untouched first draft. Run structure + scene + release checks first. For character voice, run `python scripts/voice_blind_pack.py SCRIPT --output-prefix OUT`, then send *blind.json to readers and hide *_key.json until ratings are locked. Avoid giving readers a character label or plot summary. Require at least two independent readers and enough distinct dialogue turns. Record identification matrix, reasons for identifications, confusion pairs, and agreement. Generating the cards **is not a completed blind test**.
+2. Score emotional turn per episode from actual on-page text: starting relationship or threat, concrete irreversible action, resistance, cost, changed relationship/state, and next-episode followthrough. A claim of 'she felt moved' without a decision or outward action is insufficient. Distinguish a scripted emotional beat from any claim of audience emotional impact.
+3. A voice failure should prompt revising decisions and interpersonal tactics first. Do not inject catchphrases, dialect stereotypes or arbitrary tics. Preserve evidence status, inventory and injuries. After revisions, do not relabel revised results as first pass.
+4. Runtime: numbers produced by `editorial_probe.py` are estimates only. A real timed read-through must be completed and recorded separately; 'not measured' remains unresolved until then.
+5. Run `tests/test_voice_blind_pack.py` and legacy regressions; a test-suite pass is never a storytelling quality certificate.

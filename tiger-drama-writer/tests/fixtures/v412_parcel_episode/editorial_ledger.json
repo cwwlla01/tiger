@@ -1,0 +1,25 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "e0c26469fc87ae906e29ac41e35476e5195e4c135eb3a911c8235412577d4264",
+      "mechanism": {
+        "obstacle": "相同运单与破角伪装使索赔指控看似真实",
+        "tactic": "取真件并对照触摸、揭纸",
+        "outcome": "假面单物理暴露，实际包裹拆验后交付",
+        "quote": "运单、黄贴、褐色“缺口”和斜擦痕一齐翘起"
+      },
+      "outcome_kind": "local_mystery_resolved",
+      "outcome_quote": "许宁在登记表0618一行记下“已取”，把真箱推给他。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "原来全印在同一张完整纸上",
+      "assessment": "本场从赔偿要求到拿真件对照，经过触摸和揭纸实际区分照片与破角，再当面拆验交付，核心异常已被行动解答。"
+    }
+  ]
+}

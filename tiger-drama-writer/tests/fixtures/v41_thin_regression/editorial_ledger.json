@@ -1,0 +1,25 @@
+{
+  "reviewer": "assistant_self_assessment_of_existing_failed_sample",
+  "episodes": [
+    {
+      "number": 2,
+      "sha256": "f8ea4bbd134b780c06fec6ab434a9dbbd1f3ca9ac6c1d0253e5e65b580545698"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 2,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "老陈把鱼放回水里，空网晾在两人中间。",
+      "assessment": "拒借鱼获后原鱼实际放走，主角失去包装开头的素材并转去解自己的缠线；短场仍有明确代价。"
+    },
+    {
+      "episode": 2,
+      "scene": 2,
+      "decision": "rewrite",
+      "quote": "他拍下改前状态，只动那一处，再次放下。浮漂这次立住了。",
+      "assessment": "正文没有交代动的是哪处部件，立住的结果缺少可演因果；应补具体故障与改动而非增加空泛台词。"
+    }
+  ]
+}

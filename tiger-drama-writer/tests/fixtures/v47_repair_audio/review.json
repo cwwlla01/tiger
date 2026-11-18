@@ -1,0 +1,73 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v47_repair_audio/EP01_revised.md",
+      "sha256": "5106b3ffb3cba49644813c670c51bd01171cb112d23d34934c2f08bddd35072b",
+      "scenes": 1,
+      "dialogue_han": 277,
+      "dialogue_turns": 23,
+      "body_han": 724,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 277,
+        "dialogue_turns": 23,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          67,
+          127
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "REPETITIVE_DIALOGUE_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "陈叔：是我录的。播放器在后门，空店吓贼用的。",
+        "assessment": "已通过修订关闭老板知情不解释的实质缺口；首次认声立即交代设备，未被再次逼问才坦白。周原阻止先动现场并持有原件，反对依据是现在装上什么都能响且当晚喊话似获回应。林岚先核原件再验证，周原只撤回在场断言，未降低对行程的证明要求。单场具完整质证、抵抗、变招、验证、公开纠正与关系余波；重复台词是可听线索，不删。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

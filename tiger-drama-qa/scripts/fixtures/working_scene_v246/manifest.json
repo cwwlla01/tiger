@@ -1,0 +1,37 @@
+{
+  "scene_id": "PILOT-242",
+  "evidence_type": "WORKING_DRAFT",
+  "historical_independent_runs": false,
+  "source_sha256": "2b90925d0616daad400e92c8b3480fc8dcb487cffcf65011a631cac95428f09b",
+  "draft_sha256": "2c8078f1ff9f5ab183b7ae20d9b9bed4596c4b44aef35996b5b3b1547d0f97cd",
+  "shots": [
+    {
+      "shot_id": "S01",
+      "beat_ids": [
+        "B1"
+      ],
+      "duration_s": 4
+    },
+    {
+      "shot_id": "S02",
+      "beat_ids": [
+        "B2"
+      ],
+      "duration_s": 3
+    },
+    {
+      "shot_id": "S03",
+      "beat_ids": [
+        "B3"
+      ],
+      "duration_s": 5
+    },
+    {
+      "shot_id": "S04",
+      "beat_ids": [
+        "B4"
+      ],
+      "duration_s": 4
+    }
+  ]
+}

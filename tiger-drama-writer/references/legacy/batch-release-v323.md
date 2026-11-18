@@ -1,0 +1,5 @@
+# Batch release gate (V3.23)
+
+Run `python scripts/test_auditors.py` and `python scripts/test_release_gate.py` before distributing skill updates. To evaluate a batch, run `python scripts/release_gate.py episodeA.md episodeB.md --output report.json` (or one file containing multiple EP headings). It checks episode numbering, structural warnings and adversarial warnings together.
+
+A batch is **screening-ready only if every episode has no structural or adversarial alerts**. A placeholder is a hard delivery blocker. Other warnings are editorial review requests rather than automatic artistic failures. Neither screening-ready nor a passed deterministic fixture suite is equivalent to a 2–3-minute performance or full-script editorial acceptance. Complete human checks for scene causality, genre promise, downstream continuity and timed read-through separately. Preserve raw-first-pass files. On any blocker, repair the exact affected script and rerun all checks; never just drop the offending file to improve the denominator.

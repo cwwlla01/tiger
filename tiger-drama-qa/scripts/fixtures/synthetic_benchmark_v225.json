@@ -1,0 +1,34 @@
+{
+  "case_id": "synthetic-contract-demo",
+  "evidence_level": "FIXTURE_ONLY",
+  "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "baseline_version": "V2.24",
+  "candidate_version": "V2.25",
+  "baseline": {
+    "source_beat_ids": [
+      "b1",
+      "b2"
+    ],
+    "generated_beat_ids": [
+      "b1"
+    ],
+    "prompts": [
+      "角色凝视门口",
+      "角色凝视门口"
+    ]
+  },
+  "candidate": {
+    "source_beat_ids": [
+      "b1",
+      "b2"
+    ],
+    "generated_beat_ids": [
+      "b1",
+      "b2"
+    ],
+    "prompts": [
+      "角色凝视门口",
+      "角色后退半步"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "single",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "修订既有单集，保留90–150秒及局部解谜。",
+    "merge_review": "一次送餐引出提前离岗与折返抓现行；三处空间按连续因果呈现。"
+  },
+  "audience_promise": "以封死房间的定时外卖制造不安，再用事先可见的线索解出人为诱饵。",
+  "main_engine": "门岗本应22:15换岗巡楼；队长用22:00封死房间的外卖诱使新人提前上楼，假称替岗，趁机盗运。",
+  "protagonist_strategy": "保存当班清点照片，保留小票；发觉队长假替岗后佯装上楼等人，折返验证；号码不能单独证明盗运。",
+  "ending_payoff": "保安截住队长推出的失窃封存电缆，用号码、定时要求和实物揭开调离值班口的计谋。",
+  "endpoint_kind": "local_mystery_solved",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "proposed_facts": [
+    "沿用：旧写字楼308火灾后封死，新保安第三夜，旧电缆已拆下封存。",
+    "修订提案：22:00至22:15为固定门岗，22:15有人接替后才巡楼；队长前两晚以替岗为由使新人提前上楼。",
+    "修订提案：队长知道第三份外卖会促使新人追查，借口可能困人让其上楼等待；只证明当晚盗运。"
+  ],
+  "literal_requirement_map": [
+    {
+      "request": "保留夜班保安、每晚十点给封死308送外卖",
+      "evidence_plan": "值班表、第三晚送餐、三袋未拆及钉死房门可见。"
+    },
+    {
+      "request": "悬疑局部解答，一集90–150秒",
+      "evidence_plan": "手机号、提前离岗窗口与封存电缆实物合证，回答谁订/十点/308，无新增怪事；时长另报代理范围。"
+    }
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "陈默要查明给钉死308送餐的人，并确认是否有人被困。",
+      "counteraction": "队长假称替岗，阻止先打电话，要求新人上楼等收餐人。",
+      "choice": "陈默保住票据，发现号码相同后假称继续等，实际折返门岗。",
+      "payoff": "队长推车出门被截，遮布下电缆封存牌与保安当班清点照片一致。",
+      "cost": "陈默拒绝直属队长的人情要挟，失去对其照应的信任；无额外财物损失，不虚构漏岗处分。",
+      "mainline_change": "定时无人外卖被证实是队长盗运封存物时调离新人的诱饵。",
+      "mechanism": "异常外卖把常驻门岗提前调离；保存票据后反向设局，以实物揭穿替岗骗局。",
+      "next_trigger": "保安留在门口报警并保全现场，本集闭合，不设续集谜钩。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 23,
+          "independent_action_seconds": 9,
+          "pause_seconds": 2,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 18,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 39,
+          "independent_action_seconds": 16,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 7
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "308_delivery",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "回答谁订餐、为何22点、为何308及谁实际收餐。"
+    },
+    {
+      "id": "sealed_cable",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "当班清点照片中的编号与被推出电缆实物对应。"
+    }
+  ],
+  "work_mode": "scoped continuation"
+}

@@ -1,0 +1,81 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "retrospective",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户要求一集90–150秒并先完整写再评估；同夜诱饵与抓现行形成闭环。",
+    "merge_review": "送餐、队长干预为第一场；故意离岗再折返与抓现行为第二场，不拆成后续集。"
+  },
+  "audience_promise": "以封死房间的定时外卖制造不安，再用事先可见的线索解出人为诱饵。",
+  "main_engine": "夜班保安追查无人收餐，被要求忽略异常，改用假巡楼验证谁在利用自己离岗。",
+  "protagonist_strategy": "比对收据与值班号码，记录楼内封存物编号，佯装巡楼再折返；不能仅凭号码断言盗窃。",
+  "ending_payoff": "保安截住队长推出的失窃封存电缆，用号码、定时要求和实物揭开调离值班口的计谋。",
+  "endpoint_kind": "local_mystery_solved",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "proposed_facts": [
+    "旧写字楼308火灾后封死，保安为新上岗第三夜。",
+    "队长利用新保安的巡查习惯，把每天22点的外卖送到308诱使其离开一楼。",
+    "地下库房有已拆下封存的旧电缆；队长盗运，非切割在用线路。"
+  ],
+  "literal_requirement_map": [
+    {
+      "request": "夜班保安发现每晚十点给封死308送外卖",
+      "evidence_plan": "第三夜同一时刻送达，前两份未拆，门上钉板。"
+    },
+    {
+      "request": "完整局部解答，无结尾新怪事",
+      "evidence_plan": "队长手机号与小票相同，假巡楼后抓住其推走封存电缆；交代十点及308选择原因。"
+    },
+    {
+      "request": "先完整剧本再评估",
+      "evidence_plan": "预检后写EP01.raw.md并冻结，之后创建评估与来源绑定账本，不改写初稿。"
+    }
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "新保安想找到给封死308送餐的订餐人。",
+      "counteraction": "队长以岗位纪律压下调查，要求他照旧走完巡楼。",
+      "choice": "保安明着答应，暗中比对号码并折返值班口。",
+      "payoff": "队长推车出门被截，遮布下电缆封存牌与保安当班清点照片一致。",
+      "cost": "保安拒绝直属队长删掉失职记录的条件，承认自己前两夜离岗失察。",
+      "mainline_change": "定时无人外卖被证实是队长盗运封存物时调离新人的诱饵。",
+      "mechanism": "可疑号码与固定作息触发设局，假离岗使对手主动暴露。",
+      "next_trigger": "保安留在门口报警并保全现场，本集闭合，不设续集谜钩。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 30,
+          "independent_action_seconds": 16,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 7
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 48,
+          "independent_action_seconds": 21,
+          "pause_seconds": 7,
+          "overlapped_action_seconds": 9
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "308_delivery",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "回答谁订餐、为何22点、为何308及谁实际收餐。"
+    },
+    {
+      "id": "sealed_cable",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "当班清点照片中的编号与被推出电缆实物对应。"
+    }
+  ]
+}

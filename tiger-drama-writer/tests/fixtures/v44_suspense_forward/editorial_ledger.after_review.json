@@ -1,0 +1,34 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "e39ed5a7319cd997d3fa9ff5944fe151b133e7c20259156b25ab8a0248b08543",
+      "mechanism": {
+        "obstacle": "封条完好但钥匙进入锁抽屉，正面开锁假设被排除。",
+        "tactic": "追黑漆发现旧入口，恢复原状、假装上楼、守候并复现。",
+        "outcome": "截获哥哥投钥匙，验证斜槽绕过锁的路线。",
+        "quote": "周宁跨出，握住他还没收回的手腕。柜内传来钥匙落下的轻响。"
+      },
+      "outcome_kind": "mystery_local_solution",
+      "outcome_quote": "周宁回到前台，开锁拉开抽屉：207就在里面。"
+    }
+  ],
+  "time_links": [],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "unresolved",
+      "quote": "周宁抬头。207的挂钩空了。他压住完好的纸封，手指发抖，撕封、开锁。",
+      "assessment": "主审模型复核：首场未落实哥哥从柜前取走钥匙且未被老板看见的动作或掩护。保留未修原稿是交付要求，不能据此将已知主要调度缺口标成编辑认可的retain；此项待修。"
+    },
+    {
+      "episode": 1,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "他将207重新投进旧还匙口。清楚的一声落响。",
+      "assessment": "主动追痕、伪离开、截手和复现组成完整局部解答；收签名页显示拒售的当前选择。作者自评而非独立鉴定。"
+    }
+  ],
+  "review_scope": "原始执行模型自评保存在editorial_ledger.json和review.json；主审复核只改编辑处置，不改EP01.md。"
+}

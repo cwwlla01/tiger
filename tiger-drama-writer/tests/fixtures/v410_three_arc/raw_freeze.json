@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-29T20:18:31.559130+00:00",
+  "order": "Original outline and contract written; preflight completed; EP01/EP02/EP03 raw prose written as one complete batch; no screenplay evaluation before this freeze.",
+  "raw_revision_passes": 0,
+  "source_files": {
+    "outline_original.md": "a418c54a7ce6434fbdb437a25b43304dc171ec12117d21d8a724874d4d64bb32",
+    "story_contract.json": "62d6ab61fc4eb20c45630e0331831101e03aac2babe0f3b93990a1e89097afde",
+    "EP01.md": "293b68fd67e21fcf7db500ad639f92e665c5eb59c5a0d61654e2e47072cfaa3e",
+    "EP02.md": "7eeb5ed2cc5affb6a83e87e7c2333ccf77c072b58deaf84ce001998b27ef9239",
+    "EP03.md": "3171d70a6497fabe3178b5135543e58af663f73a5daf992a37488b005a8b8cf2"
+  }
+}

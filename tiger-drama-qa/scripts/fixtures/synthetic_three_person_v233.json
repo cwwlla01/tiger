@@ -1,0 +1,38 @@
+{
+  "source_sha256": "synthetic_fixture_not_real_hash",
+  "asset_version": "synthetic_v1",
+  "candidates": {
+    "A": {
+      "source_sha256": "synthetic_fixture_not_real_hash",
+      "asset_version": "synthetic_v1",
+      "shots": [
+        {
+          "source_beat_id": "B1",
+          "shot_id": "A-S1",
+          "focus_character": "A",
+          "dramatic_function": "establish power tension",
+          "cut_trigger": "dialogue response",
+          "screen_axis": "A-left B-right",
+          "new_information": "C holds key",
+          "duration_estimate": 5
+        }
+      ]
+    },
+    "B": {
+      "source_sha256": "synthetic_fixture_not_real_hash",
+      "asset_version": "synthetic_v1",
+      "shots": [
+        {
+          "source_beat_id": "B1",
+          "shot_id": "B-S1",
+          "focus_character": "C",
+          "dramatic_function": "establish power tension",
+          "cut_trigger": "prop reveal",
+          "screen_axis": "A-left B-right",
+          "new_information": "C holds key",
+          "duration_estimate": 5
+        }
+      ]
+    }
+  }
+}

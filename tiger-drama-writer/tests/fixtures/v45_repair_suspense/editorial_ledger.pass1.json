@@ -1,0 +1,62 @@
+{
+  "review_type": "source_bound_self_review_only",
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "753c949fd1ccbc586b6baec8d8a32037af38f63f91ecff2dc2e73d87c45252dc",
+      "mechanism": {
+        "obstacle": "假替岗和困人话术制造提前离岗，队长要求留下等候并试拿小票",
+        "tactic": "保住小票、比对通讯录，假称等候实则折返，录像封存实物",
+        "outcome": "当晚一车被截，定时外卖被解为提前调离门岗的诱饵",
+        "quote": "陈默：还没到换岗。你替我守门，还是等我上楼？"
+      },
+      "outcome_kind": "local_mystery_solved",
+      "outcome_quote": "高队：门封着，没人会接。你才会一直查。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "高队：万一困着人呢？上去看看。我替你守，跟前两晚一样。",
+      "assessment": "门岗22:15才换岗巡楼；队长利用固定十点外卖与假困人话术让陈默提前上楼。承诺替岗使离岗责任可追溯，不再强逼新人认领漏岗。"
+    },
+    {
+      "episode": 1,
+      "scene": 2,
+      "decision": "retain",
+      "quote": "△高队伸手拿票。陈默把票折进掌心。",
+      "assessment": "具体争物与阻止通话可演；陈默佯称等候后比对号码，获得折返动机。短场不是纯过渡，明确省略上楼。"
+    },
+    {
+      "episode": 1,
+      "scene": 3,
+      "decision": "retain",
+      "quote": "陈默：替岗，不是替你放车。",
+      "assessment": "现场封存编号与开场清点对应，门岗椅空且换岗未到，推车截停与拒绝人情形成策略和后态；不把电话单独当作盗窃证据。"
+    }
+  ],
+  "manual_findings": [
+    {
+      "severity": "timing_uncertainty",
+      "episode": 1,
+      "scene": 2,
+      "quote": "△省略上楼过程。门上横钉两块木板，缝里焦黑。门边两袋外卖封口完好。送餐员放下第三袋，离去。",
+      "assessment": "楼层行走在叙事中明确省略，实际节奏仍需排演；不能从预算或代理范围宣称实测。"
+    },
+    {
+      "severity": "minor",
+      "episode": 1,
+      "scene": 1,
+      "quote": "送餐员：天天十点的长期单。订餐人还说人在里面。",
+      "assessment": "沿用不安开场，追加假困人说法足以使新人追查，但观众是否接受第三晚仍追查属表演可信度风险；本轮未造额外封闭制度来过度解释。"
+    }
+  ],
+  "continuation_state": {
+    "time": "第三夜22:04后；22:15常规换岗尚未到来。",
+    "knowledge": "陈默知道订餐电话属于高队；亲见当晚七号电缆被推至出口。前两夜盗运未证实。",
+    "props": "陈默持小票、手机清点照与录像；车及七号电缆停一楼桌前；三袋外卖留308。",
+    "open_debts": "定时、地址、收餐人已局部解释；报警已拨，警方后续和责任认定未写。"
+  }
+}

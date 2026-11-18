@@ -1,0 +1,13 @@
+{
+  "contract_fields_present": false,
+  "issues": [
+    "EP1_SCENE_BUDGETS_MISSING",
+    "EP2_SCENE_BUDGETS_MISSING"
+  ],
+  "episode_ids": [
+    1,
+    2
+  ],
+  "creative_quality_certified": false,
+  "caveat": "Populated planning fields do not prove a good story or actual future payoff."
+}

@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-10-29T21:01:26.206975+00:00",
+  "revision_passes": 1,
+  "order": "Revised plan and contract saved before one full author repair pass; all three complete revised sources frozen before review.",
+  "files": {
+    "repair_plan.md": "c9f81fd74b87c9034e4b4686efdefed271741ae434f09f6ff24e6a81957aba45",
+    "story_contract_author_revised.json": "2600647b59942c45150f769f35ca2d926449980e7a41a5ce4075e0c9664e23ee",
+    "EP01_revised.md": "a70fce613380f84a6415c5f61d835cb891fcd26b5578b2410ff987d4d984d5df",
+    "EP02_revised.md": "486fe23c3a47700c0223f9537f798b57ad67c851cfea34340b2f6d17b406f90f",
+    "EP03_revised.md": "d74dc3dc0ccf7a4f03412ca9582123f7366e538c88a926eac7f6aa13d5940823"
+  }
+}

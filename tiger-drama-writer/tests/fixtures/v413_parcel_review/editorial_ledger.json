@@ -1,0 +1,27 @@
+{
+  "review_scope": "Retrospective review of supplied existing raw episode only; no rewrite or performed evidence.",
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "db6d072ab15032d4ff4df7ba4012fb3f10dccecb0b5c3587c62eef349235bb96",
+      "mechanism": {
+        "obstacle": "取件人以同号同破角箱体及断灯索赔，真箱却仍在储物间。",
+        "tactic": "许宁取真箱对照，触摸破角并揭开一体打印纸，随后核对聊天来源。",
+        "outcome": "照片复制伪装被实物检验揭明，取件人带走真件和旧灯。",
+        "quote": "运单、黄贴、褐色“缺口”和斜擦痕一齐翘起，原来全印在同一张完整纸上。"
+      },
+      "outcome_kind": "local_mystery_resolved",
+      "outcome_quote": "梁浩将假面单塞进坏灯箱，把两个箱子摞起，低头走出。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "她先摸真箱的缺口，指腹碰到纸箱。再摸梁浩箱上的“缺口”，指腹滑过一整片光滑白纸。",
+      "assessment": "连续单场完成索赔施压、真件对照、触摸与揭纸辨伪、来源确认及拆验交付；短对白服务试探、抵抗与认输，没有发现需要靠增场或加话填补的缺失转折。保留是对场景文本结构的判断，不认可原82秒台词预算；90–150秒达标仍未证实，见 assessment.md。"
+    }
+  ],
+  "time_links": []
+}

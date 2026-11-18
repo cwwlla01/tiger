@@ -1,0 +1,258 @@
+{
+  "policy_version": "4.1",
+  "mode": "season",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v410_three_arc/EP01.md",
+      "sha256": "293b68fd67e21fcf7db500ad639f92e665c5eb59c5a0d61654e2e47072cfaa3e",
+      "scenes": 3,
+      "dialogue_han": 197,
+      "dialogue_turns": 22,
+      "body_han": 653,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 197,
+        "dialogue_turns": 22,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          75,
+          171
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 2,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v410_three_arc/EP02.md",
+      "sha256": "7eeb5ed2cc5affb6a83e87e7c2333ccf77c072b58deaf84ce001998b27ef9239",
+      "scenes": 3,
+      "dialogue_han": 234,
+      "dialogue_turns": 21,
+      "body_han": 692,
+      "runtime_proxy": {
+        "episode": 2,
+        "dialogue_han": 234,
+        "dialogue_turns": 21,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          83,
+          183
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 3,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v410_three_arc/EP03.md",
+      "sha256": "3171d70a6497fabe3178b5135543e58af663f73a5daf992a37488b005a8b8cf2",
+      "scenes": 3,
+      "dialogue_han": 192,
+      "dialogue_turns": 20,
+      "body_han": 742,
+      "runtime_proxy": {
+        "episode": 3,
+        "dialogue_han": 192,
+        "dialogue_turns": 20,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          74,
+          169
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 2
+      }
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 3
+      }
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 1,
+      "detail": {
+        "episode": 1,
+        "dialogue_han": 197,
+        "dialogue_turns": 22,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          75,
+          171
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 2
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 2
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 2,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 2,
+      "detail": {
+        "scene": 3
+      }
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 2,
+      "detail": {
+        "episode": 2,
+        "dialogue_han": 234,
+        "dialogue_turns": 21,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          83,
+          183
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 3
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 3
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 3,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 3,
+      "detail": {
+        "episode": 3,
+        "dialogue_han": 192,
+        "dialogue_turns": 20,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          74,
+          169
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "code": "SEMANTIC_LEDGER_NOT_SUPPLIED"
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      },
+      {
+        "episode": 1,
+        "scene": 2
+      },
+      {
+        "episode": 1,
+        "scene": 3
+      },
+      {
+        "episode": 2,
+        "scene": 1
+      },
+      {
+        "episode": 2,
+        "scene": 3
+      },
+      {
+        "episode": 3,
+        "scene": 1
+      }
+    ],
+    "unreviewed_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      },
+      {
+        "episode": 1,
+        "scene": 2
+      },
+      {
+        "episode": 1,
+        "scene": 3
+      },
+      {
+        "episode": 2,
+        "scene": 1
+      },
+      {
+        "episode": 2,
+        "scene": 3
+      },
+      {
+        "episode": 3,
+        "scene": 1
+      }
+    ],
+    "pending_revision_scenes": [],
+    "decisions": [],
+    "coverage_complete": false,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "awaiting_scene_review",
+  "semantic_annotations_state": "unassessed",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

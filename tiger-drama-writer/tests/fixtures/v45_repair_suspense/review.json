@@ -1,0 +1,140 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v45_repair_suspense/EP01.revised.md",
+      "sha256": "dc30e7a68dbc1ee67294a747560b8e44d754e1ab353f26c22d35c9af6a176170",
+      "scenes": 3,
+      "dialogue_han": 146,
+      "dialogue_turns": 13,
+      "body_han": 546,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 146,
+        "dialogue_turns": 13,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          65,
+          154
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "LOW_SPOKEN_TEXT",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "THIN_SCENE_MAJORITY",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_DIALOGUE_TOO_SPARSE_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 1
+      }
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 2
+      }
+    },
+    {
+      "code": "SCENE_DIALOGUE_TOO_SPARSE_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 2
+      }
+    },
+    {
+      "code": "RUNTIME_PROXY_UPPER_EXCEEDS_TARGET",
+      "episode": 1,
+      "detail": {
+        "episode": 1,
+        "dialogue_han": 146,
+        "dialogue_turns": 13,
+        "scenes": 3,
+        "estimated_seconds_range": [
+          65,
+          154
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 1
+      },
+      {
+        "episode": 1,
+        "scene": 2
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "高队：万一困着人呢？上去看看。我替你守，跟前两晚一样。",
+        "assessment": "门岗22:15才换岗巡楼；队长利用固定十点外卖与假困人话术让陈默提前上楼。承诺替岗使离岗责任可追溯，不再强逼新人认领漏岗。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "△挂断。他把小票贴在手机旁，逐位比对订餐号码与高队的来电号码：完全相同。陈默收起小票，转身下楼。",
+        "assessment": "队长电话催等构成阻力；陈默假答应、挂断后利用来电号码和票据逐位比对并折返，完整保留变招。队长无需往返三楼，删掉抢票支线，静态比号仍分配独立动作。"
+      },
+      {
+        "episode": 1,
+        "scene": 3,
+        "decision": "retain",
+        "quote": "陈默：替岗，不是替你放车。",
+        "assessment": "现场封存编号与开场清点对应，门岗椅空且换岗未到，推车截停与拒绝人情形成策略和后态；不把电话单独当作盗窃证据。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

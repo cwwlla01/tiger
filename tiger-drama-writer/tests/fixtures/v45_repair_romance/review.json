@@ -1,0 +1,88 @@
+{
+  "policy_version": "4.1",
+  "mode": "single",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v45_repair_romance/EP01_revised.md",
+      "sha256": "13dce989566194130e22b2d6e06b99a982f3af8c29774110ac456b272e3f0641",
+      "scenes": 2,
+      "dialogue_han": 197,
+      "dialogue_turns": 25,
+      "body_han": 863,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 197,
+        "dialogue_turns": 25,
+        "scenes": 2,
+        "estimated_seconds_range": [
+          63,
+          136
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "SCENE_UNDERDEVELOPED_REVIEW",
+      "episode": 1,
+      "detail": {
+        "scene": 2
+      }
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [
+      {
+        "episode": 1,
+        "scene": 2
+      }
+    ],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "周屿收回先迈出的脚，站稳等她。",
+        "assessment": "对实际修订文本复读后保留：抢先迈步—收脚等待—肩上点拍—同时迈步，纠正动作直接针对起步过早；抵肩、解除拉力、小半步退开和手肘展开说明单手距离，左右同向移动不再同时后退。最后松手询问，她主动恢复握手，靠近没有依赖强拉。修订已完成，并非待办rewrite。"
+      },
+      {
+        "episode": 1,
+        "scene": 2,
+        "decision": "retain",
+        "quote": "许棠轻轻捏住他的袖口。",
+        "assessment": "她先排除和好，再主动留住他并提出咖啡；他询问时间、接受她挑地点，完成舞后仍有效的关系变化。短场不能并入舞中，否则容易把靠近仅理解为表演。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

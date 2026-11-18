@@ -1,0 +1,109 @@
+{
+  "policy_version": "4.1",
+  "mode": "retrospective",
+  "episodes": [
+    {
+      "episode": 1,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v43_flowers/EP01.raw.md",
+      "sha256": "daaf8d8fb979042d8a908df60eb2fa71401b685f92f61ede9cde05a1daea8752",
+      "scenes": 1,
+      "dialogue_han": 231,
+      "dialogue_turns": 20,
+      "body_han": 615,
+      "runtime_proxy": {
+        "episode": 1,
+        "dialogue_han": 231,
+        "dialogue_turns": 20,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          58,
+          112
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    },
+    {
+      "episode": 2,
+      "file": "/root/.codex/skills/remote-skills/skill-6ae1d9c013bc81918d1c3375c67353c5/tests/fixtures/v43_flowers/EP02.revised.md",
+      "sha256": "e1dae9db69028ae59f68ba7ee02bb24f96ae7b41d5041b9b17b4b7d8227d62b7",
+      "scenes": 1,
+      "dialogue_han": 296,
+      "dialogue_turns": 24,
+      "body_han": 687,
+      "runtime_proxy": {
+        "episode": 2,
+        "dialogue_han": 296,
+        "dialogue_turns": 24,
+        "scenes": 1,
+        "estimated_seconds_range": [
+          71,
+          134
+        ],
+        "target_90_150s": "POSSIBLE_NOT_MEASURED",
+        "measured_runtime_seconds": null
+      }
+    }
+  ],
+  "text_blockers": [],
+  "evidence_continuity_blockers": [],
+  "duration_planning_blockers": [],
+  "editorial_review_cues": [
+    {
+      "code": "FEW_SCENES",
+      "episode": 1
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 1
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 1
+    },
+    {
+      "code": "FEW_SCENES",
+      "episode": 2
+    },
+    {
+      "code": "SHORT_TEXT_REVIEW",
+      "episode": 2
+    },
+    {
+      "code": "VERY_SHORT_DIALOGUE_AVG",
+      "episode": 2
+    }
+  ],
+  "text_complete_candidate": true,
+  "mechanically_clear": true,
+  "scene_review": {
+    "required_scenes": [],
+    "unreviewed_scenes": [],
+    "pending_revision_scenes": [],
+    "decisions": [
+      {
+        "episode": 1,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "何婶用胳膊夹住一个菜袋，腾出手，抽中间的两支康乃馨。",
+        "assessment": "单一连续争执具备完整动作链：抽花被托住、拒绝整束欲离开、拆样束、宽纸受阻、缩纸挂腕、六元离摊。短句源于两手占满和熟人截话，不靠补长独白解决低字数提示。"
+      },
+      {
+        "episode": 2,
+        "scene": 1,
+        "decision": "retain",
+        "quote": "周师傅将十元揣回口袋，松开玫瑰。",
+        "assessment": "同场的收钱欲走保留；修订让主角兑现已承诺的免费纸包并承担材料与服务负担，而非客户承担事后条件；原承诺下两元收费权并未成立，不能称放弃应得收入。顾客自主补两元买第三支玫瑰，随后才明示后续包装规则，金额同步为十二与十八元。"
+      }
+    ],
+    "coverage_complete": true,
+    "artistic_meaning_verified": false
+  },
+  "editorial_readiness": "source_bound_self_review_only",
+  "semantic_annotations_state": "source_bound_annotations_only",
+  "semantic_truth_verified": false,
+  "artistic_approval": null,
+  "independent_reader_review": false,
+  "measured_runtime_seconds": null,
+  "caveat": "Soft cues are not rewrite orders; hashes and labels do not prove narrative meaning. No rehearsal, audience or artistic certification."
+}

@@ -1,0 +1,46 @@
+{
+  "version": "V2.57",
+  "source": "V2.56 test-script working draft; not a production canon",
+  "shots": [
+    {
+      "id": "S01B",
+      "route": "PLATE_PLUS_POST_TEXT",
+      "exact_text": "第三声后别回头",
+      "status": "TEXT_PLAN_COMPLETE"
+    },
+    {
+      "id": "S04",
+      "route": "VISUAL_PLUS_OFFSCREEN_VOICE",
+      "voice": "许遥，开门。",
+      "order": "SECOND_KNOCK_BEFORE_VOICE",
+      "reveal_outside": false,
+      "status": "TEXT_PLAN_COMPLETE"
+    },
+    {
+      "id": "S06",
+      "route": "OBSCURED_HAND_SILHOUETTE",
+      "reveal_identity": false,
+      "door_open": false,
+      "status": "TEXT_PLAN_COMPLETE"
+    },
+    {
+      "id": "S07",
+      "route": "LAYOUT_DEPENDENT",
+      "status": "LAYOUT_BLOCKED",
+      "required": [
+        "approved_floorplan",
+        "actor_blocking",
+        "left_hand_contact_path"
+      ]
+    },
+    {
+      "id": "S09",
+      "route": "EDIT_AUDIO_ONLY",
+      "order": "BLACK_BEFORE_THIRD_KNOCK",
+      "status": "TEXT_PLAN_COMPLETE"
+    }
+  ],
+  "asset_status": "ASSET_UNVERIFIED",
+  "model_status": "MODEL_UNVERIFIED",
+  "video_status": "VIDEO_NOT_TESTED"
+}

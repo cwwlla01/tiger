@@ -1,0 +1,83 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "1a70713aac94f2be7c98bf96bc17dd1aaf7c591783c8f0179564ad5aa5971394",
+      "day": 1,
+      "day_quote": "返乡第1日",
+      "mechanism": {
+        "obstacle": "假装已有钓技却挂草",
+        "tactic": "保留失败并发布",
+        "outcome": "真实首发",
+        "quote": "他挥竿，钩挂住岸边芦苇，线绷住。"
+      },
+      "outcome_kind": "first_publication",
+      "outcome_quote": "输入“返乡第一竿，先钓到老家的草”，点击发布。"
+    },
+    {
+      "number": 2,
+      "sha256": "b7fcece2a7c2bf72e2ac59309ec0ca43155d209695d9d524d64bab7f8b964a95",
+      "day": 2,
+      "day_quote": "返乡第2日",
+      "mechanism": {
+        "obstacle": "父亲拒绝出脸出声",
+        "tactic": "缩小授权并自己配音",
+        "outcome": "第二条发布且接到问题",
+        "quote": "陈序松开鼠标，把原声整轨静音。"
+      },
+      "outcome_kind": "viewer_question",
+      "outcome_quote": "并非通讯录好友。"
+    },
+    {
+      "number": 3,
+      "sha256": "70ab13e703965c5a6364d55aa0d73377a91fcce006188954d73e482538f9c2b7",
+      "day": 3,
+      "day_quote": "返乡第3日",
+      "mechanism": {
+        "obstacle": "父亲不代拍且漂难看见",
+        "tactic": "固定设备对比试拍",
+        "outcome": "回应陌生观众",
+        "quote": "陈序举手又放下，自己挪开支架，让倒影避开浮漂，再试一遍。"
+      },
+      "outcome_kind": "audience_launch",
+      "outcome_quote": "看清了，谢谢。我也第一次。"
+    }
+  ],
+  "time_links": [
+    {
+      "source_episode": 1,
+      "target_episode": 2,
+      "offset_days": 1,
+      "quote": "陈序：发了。明天拍点有用的。"
+    },
+    {
+      "source_episode": 2,
+      "target_episode": 3,
+      "offset_days": 1,
+      "quote": "陈序：不是咱亲戚。明天我自己拍给他看。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "陈序把钱压回父亲手边，抽走离婚证，收到拉链袋。",
+      "assessment": "留用：借竿的行动被父亲对工作追问打断；陈序收起离婚证并明确不拍，父亲按不借鱼的边界借竿。身份暴露改变了能拍什么，非纯背景对白；但情感停顿尚未实演。"
+    },
+    {
+      "episode": 2,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "陈福：背影也是我，别钻空子。",
+      "assessment": "留用：手机先被手、再被帽子挡住，偷换成背影也失败；陈序提出只拍手并给删除权，父亲才移帽调整画面，完成一次有代价的许可谈判。"
+    },
+    {
+      "episode": 3,
+      "scene": 1,
+      "decision": "retain",
+      "quote": "父亲提起盒子，手机滑下来，陈序赶紧接住。",
+      "assessment": "修订后留用：主人公已独自拍，不再向父亲求代拍；借盒底座被父亲真实出钓需要阻止，菜盘也被占用，转用自己重支架并承担搬运。存在可演的手与物冲突，未添加收费教学伪代价。"
+    }
+  ]
+}

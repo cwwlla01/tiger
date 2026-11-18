@@ -1,0 +1,25 @@
+{
+  "episodes": [
+    {
+      "number": 1,
+      "sha256": "69ddedbef60b249dd3317bfa7cd400ee46dfb5bb69e9bd6619cf554a239f1cd0",
+      "mechanism": {
+        "obstacle": "停电使整鱼宴不再适宜，女儿准备离店",
+        "tactic": "老板放弃整鱼收入、以已备热面留人，女儿让出拍照手机",
+        "outcome": "一家坐下吃面并共同吹烛",
+        "quote": "老周：鱼不上了，这份钱划掉。寿面已经好了，您闻闻。"
+      },
+      "outcome_kind": "relationship_shift",
+      "outcome_quote": "小敏：不拍了。妈，趁热。"
+    }
+  ],
+  "scene_dispositions": [
+    {
+      "episode": 1,
+      "scene": 1,
+      "decision": "rewrite",
+      "quote": "何姨：我吃过六十年饭，就你这碗最难等。拍了半天，筷子还没拿。",
+      "assessment": "何姨的“拍了半天”先于本场实际拍照行为；改成在小敏举手机之后针对她的动作说话。补足小敏对改餐的实际顾虑与老板回应，手机支放、服务动作也明确化。时长代理偏短仅为复核线索，不以补字作为修订目的。"
+    }
+  ]
+}

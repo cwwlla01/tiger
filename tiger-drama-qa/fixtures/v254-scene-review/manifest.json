@@ -1,0 +1,12 @@
+{
+  "status": "DIRECTOR_REVIEW_DRAFT",
+  "source": "../v253-real-source/01-原始测试剧本.md",
+  "video_generated": false,
+  "blocking": [
+    "S07 layout verification"
+  ],
+  "audio_only": [
+    "S09"
+  ],
+  "editorial_duration_seconds": 41
+}

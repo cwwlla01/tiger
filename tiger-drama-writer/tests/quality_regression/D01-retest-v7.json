@@ -1,0 +1,79 @@
+{
+  "case": "D01",
+  "source": {
+    "key_winner": "UNSPECIFIED",
+    "key_initial": "table_edge"
+  },
+  "shots": [
+    {
+      "shot": "S01",
+      "edit_seconds": 3,
+      "takes": [
+        "T01"
+      ],
+      "key_before": "table_edge",
+      "key_after": "under_table_front_left_leg",
+      "action": "钥匙落到桌下，落点可见"
+    },
+    {
+      "shot": "S02",
+      "edit_seconds": 3,
+      "takes": [
+        "T02a",
+        "T02b"
+      ],
+      "key_before": "under_table_front_left_leg",
+      "key_after": "under_table_front_left_leg",
+      "action": "甲伸手，乙阻挡；两Take分开生成"
+    },
+    {
+      "shot": "S03",
+      "edit_seconds": 3,
+      "takes": [
+        "T03"
+      ],
+      "key_before": "under_table_front_left_leg",
+      "key_after": "under_table_front_left_leg",
+      "action": "两人隔桌角僵持；钥匙仍在原位"
+    },
+    {
+      "shot": "S04",
+      "edit_seconds": 3,
+      "takes": [
+        "T04a",
+        "T04b"
+      ],
+      "key_before": "under_table_front_left_leg",
+      "key_after": "under_table_front_left_leg",
+      "action": "双方伸手接近钥匙，切到双人反应；胜负未定"
+    }
+  ],
+  "takes": {
+    "T01": {
+      "generation_seconds": 4
+    },
+    "T02a": {
+      "generation_seconds": 4
+    },
+    "T02b": {
+      "generation_seconds": 4
+    },
+    "T03": {
+      "generation_seconds": 4
+    },
+    "T04a": {
+      "generation_seconds": 4
+    },
+    "T04b": {
+      "generation_seconds": 4
+    }
+  },
+  "proposals": [
+    {
+      "action": "甲脚拨钥匙并最终取得",
+      "status": "PROPOSED",
+      "approval": "WRITER_APPROVAL_REQUIRED",
+      "used_in_authoritative_shots": false
+    }
+  ]
+}

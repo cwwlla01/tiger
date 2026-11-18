@@ -1,0 +1,68 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "retrospective",
+  "scope_basis": {
+    "count_source": "user_fixed",
+    "requested_episode_count": 1,
+    "episode_count_reason": "用户限定一集；一次封锁试验与一次截获足以解释钥匙如何及为何回到锁抽屉。",
+    "merge_review": "不另写往日空房检查；前史融入当夜争执，两场连续行动完成验证。"
+  },
+  "literal_requirements": [
+    "一集90–150秒悬疑短剧",
+    "小旅馆老板发现空房间钥匙每晚出现在上锁抽屉",
+    "本集完整局部解答",
+    "先完整写一稿后评估；保留原稿"
+  ],
+  "proposed_facts": "兄弟共同继承旧旅馆，弟弟经营；哥哥要促成出售，以旧还钥匙口制造闹鬼。均为创作提案。",
+  "audience_promise": "观众先面对锁内返钥的怪事，再凭可见痕迹与老板的验证，识破人为恐吓。",
+  "main_engine": "密闭假象使老板怀疑闹鬼；锁缝封条排除正面开锁，钥匙上的黑漆引向背后旧还匙口。",
+  "protagonist_strategy": "用封条排除开锁，再追查钥匙刮痕，故意维持原样守住入口；熟悉交接钥匙但不知道旧柜结构。",
+  "ending_payoff": "亲手截获哥哥投钥匙并复现实验，拒绝在出售合同签字，今夜钥匙回返之谜闭合。",
+  "endpoint_kind": "mystery_local_solution",
+  "target_seconds": [
+    90,
+    150
+  ],
+  "engines_considered": [
+    "梦游自返钥：惊悚强但依赖病症解释与记录。",
+    "旧回匙口被利用制造闹鬼：可现场测试，物理线索清晰，选择此项。",
+    "暗住者每夜归还钥匙：须较多住宿时间表说明，短时内易漏洞。"
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "attempt": "封住锁孔，验证有人偷开抽屉的假设。",
+      "counteraction": "封条完好而钥匙落入，开锁假设失败，哥哥催签售店合同。",
+      "choice": "追查黑漆刮痕，移开柜后旧招贴，留下入口原状并守候。",
+      "payoff": "老板抓住投钥匙的哥哥，亲自让钥匙经过斜槽落进锁抽屉。",
+      "cost": "兄弟信任破裂；不声称财产争议已全部解决。",
+      "mainline_change": "从因怪事动摇出售，到掌握造假方法并撤回签字动作。",
+      "mechanism": "封锁试验排除假设，痕迹引路，守候截获，现场复现。",
+      "next_trigger": "锁内返钥谜当集解答，出售分歧留存但不另加超自然悬念。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 24,
+          "independent_action_seconds": 18,
+          "pause_seconds": 7,
+          "overlapped_action_seconds": 5
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 36,
+          "independent_action_seconds": 28,
+          "pause_seconds": 8,
+          "overlapped_action_seconds": 6
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "locked_key",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "给出钥匙入锁抽屉的物理路线与人为动机，并现场验证。"
+    }
+  ]
+}
